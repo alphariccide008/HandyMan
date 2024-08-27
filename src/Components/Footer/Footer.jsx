@@ -108,7 +108,7 @@ const Footer = () => {
        
         <div className='relative text-center md:flex-row py-10 md:mx-[30px] mt-2'>
               
-              <h6 className='clr' style={{fontSize:'15px'}}>&copy;2024 Handyman LLC. All Rights Reserved</h6>
+              <h6 className='clr' style={{fontSize:'15px'}}>&copy;2024 All-Remodelling. All Rights Reserved</h6>
         </div>
       </div>
     </>
