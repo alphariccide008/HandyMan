@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="flex-col md:w-1/2  pt-[30px] ">
             <div className='flex mb-4 items-center justify-center'>
               <img src={Logo} alt="" style={{height:'70px', width:'20%'}} />
-              <h4 className='text-white font-bold mt-9'>HANDYMAN LLC</h4>
+              <h4 className='text-white font-bold mt-9'>ALL-REMODELLING</h4>
               </div>
                
               <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
