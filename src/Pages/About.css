@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .img-shadow {
+      filter: drop-shadow(40px 50px 25px #0f1115);
+    }
+  
+    .img-shadow2 {
+      filter: drop-shadow(10px 30px 15px #3030307a);
+    }
+  
+    .input-style {
+      @apply px-4 py-2 border-[1px] border-gray-400 rounded-md;
+    }
+  
+    .primary-btn {
+      @apply bg-primary text-white px-4 py-2 rounded-md hover:bg-primaryDark duration-200;
+    }
+  }
+
+
+
+.bgColor{
+    background-color: rgb(33, 32, 32);
+    min-height: 500px;
+}
+.fontColor{
+    color: rgb(196, 196, 189);
+}
+.chooseColor{
+    background-color: rgb(213, 213, 219);
+}
+.card{
+    border: 1px sold #5e5d5d;
+    min-height: 250px;
+    background-color: rgb(223, 223, 218);
+    border-radius: 10px;
+}
+.idea{
+    color: rgb(173, 155, 17);
+}

@@ -1,0 +1,13 @@
+.footer{
+    background-image:linear-gradient(to right, rgba(8, 8, 9, 0.9) ,rgba(12, 12, 14, 0.8)), url("/public/ftbanner.jpg");  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.clr{
+    color: rgb(184, 183, 183);;
+}
+.logo{
+    width: 60px;
+}
