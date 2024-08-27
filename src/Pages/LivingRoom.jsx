@@ -7,7 +7,7 @@ import Living5 from  '../assets/images/livingroom5.jpg';
 import Living6 from  '../assets/images/livingroom6.jpg';
 import Living7 from  '../assets/images/livingroom7.jpeg';
 import Living8 from  '../assets/images/livingroom8.jpeg';
-import Living9 from  '../assets/images/livingroom9.jpeg';
+
 
 
 
@@ -54,7 +54,7 @@ const Bathroom = () => {
                     <img src={Living8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living9} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Living5} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                 </div>
            </div>
