@@ -86,7 +86,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className='lg:mt-56  md:mt-48 mt-10   text-sm '> Welcome to Handyman, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. Whether you're looking to revamp your home, office, or any other space, our team of experienced designers and skilled craftsmen are here to bring your vision to life.
+                        className='lg:mt-56  md:mt-48 mt-10   text-sm '> Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. Whether you're looking to revamp your home, office, or any other space, our team of experienced designers and skilled craftsmen are here to bring your vision to life.
                         </motion.h6>
 
                         <motion.h6
