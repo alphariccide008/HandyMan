@@ -98,7 +98,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className="mt-5">At Handyman, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
+                        className="mt-5">At All-Remodelling, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
                         </motion.h6>
                         
                         <motion.div
