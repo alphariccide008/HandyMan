@@ -87,9 +87,9 @@ const Bathroom = () => {
                     className="flex-col py-20 mb-10 md:w-1/4  img-shadow2 card">
                     <motion.div className="md:px-2  px-14">
                     <motion.div className='lg:flex justify-center mb-4'>
-                    <FaLightbulb className=' lg:mx-3 my-1 text-4xl idea mx-[35%]'/><h3 className='pt-3 font-bold'>Over 20 years of experience</h3>
+                    <FaLightbulb className=' lg:mx-3 my-1 text-4xl idea mx-[35%]'/><h3 className='pt-3 font-bold'>An Experienced Team </h3>
                     </motion.div>
-                    <p style={{fontSize:"12px"}}>We have a proven track record of success in the home and yard renovation industry. Our team of experienced and skilled workers is able to handle any project, big or small.</p>
+                    <p style={{fontSize:"12px"}}>Every member of our team is a master of their craft. Each one of us has years of experience under our belt and are passionate about what we do. This passion is seen in each and every project we get our hands on. </p>
                     </motion.div>
                         
                     </motion.div>
@@ -109,7 +109,7 @@ const Bathroom = () => {
                     <motion.div className='lg:flex justify-center mb-4'>
                     <FaTools className=' lg:mx-3 my-1 text-4xl idea mx-[35%]'/><h3 className='pt-3 font-bold'>Personalized Service</h3>
                     </motion.div>
-                    <p style={{fontSize:"12px"}}>We understand that your home is a reflection of your style and personality. We work with you to create a renovation that meets your needs and desires.</p>
+                    <p style={{fontSize:"12px"}}>We know and understand that your home is a representation of your personal style and needs. We work with you to create the perfect space that fits your needs and vision. </p>
                     </motion.div>
                         
                     </motion.div>
@@ -149,7 +149,7 @@ const Bathroom = () => {
                     <motion.div className='lg:flex justify-center mb-4'>
                     <FaMoneyCheck className=' lg:mx-3 my-1 text-4xl idea mx-[35%]'/><h3 className='pt-3 font-bold'>Fair Price</h3>
                     </motion.div>
-                    <p style={{fontSize:"12px"}}>We offer fair prices and flexible financing options to make your renovation affordable.</p>
+                    <p style={{fontSize:"12px"}}>We know that renovations are big and expensive projects, but while working with us we are committed to making renovations accessible. We offer fair and transparent prices with fair financing options to fit your budget. </p>
                     </motion.div>
                         
                     </motion.div>
