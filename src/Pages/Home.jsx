@@ -59,7 +59,10 @@ export default function Home(){
                               delay: 0.8,
                             }}
 
-                            className='mt-32 pr-10 hidden md:flex-col md:flex '>Re-creating your Imagination of a  perfect place to call home can be hard. Our team of creatives and specialists makes it to live in your Fantacy.</motion.h5>
+                            className='mt-32 pr-10 hidden md:flex-col md:flex '>Let us revamp your home
+                            Making imagination a reality Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            
+                            </motion.h5>
                         </div>
                         <div className="md:w-1/2  md:space-y-1  md:flex flex-col">
                             
@@ -85,7 +88,9 @@ export default function Home(){
                               delay: 0.8,
                             }}
                             
-                            className='mt-10 pr-10  md:hidden ' style={{ fontSize:'14px'}}>Re-creating your Imagination of a  perfect place to call home can be hard. Our team of creatives and specialists makes it to live in your Fantacy.</motion.h5>
+                            className='mt-10 pr-10  md:hidden ' style={{ fontSize:'14px'}}>Let us revamp your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            
+                            </motion.h5>
                         </div>
                     </div>
                 </div>
@@ -113,7 +118,7 @@ export default function Home(){
                             <div className="flex-col px-10 ">
                                 <h3 className='font-bold mb-3'>EXPERIENCED TEAM</h3>
                                 <p className='fontColor'>
-                                Each of us is a master of our craft – we've worked a number of years in our field and each have passion and creative vision for every project we put our hands on
+                                Every member of our team is a master of their craft. Each one of us has years of experience under our belt and are passionate about what we do. This passion is seen in each and every project we get our hands on. 
                                 </p>
                             </div>
                         </div>
@@ -124,7 +129,7 @@ export default function Home(){
                             <div className="flex-col px-10 ">
                                 <h3 className='font-bold mb-3'>PERSONALIZED SERVICE</h3>  
                                 <p className='fontColor'>
-                                Personalized service: We understand that your home is a reflection of your style and personality. We work with you to create a renovation that meets your needs and desires.
+                                We know and understand that your home is a representation of your personal style and needs. We work with you to create the perfect space that fits your needs and vision. 
                                 </p>
                             </div>
                         </div>
@@ -136,7 +141,7 @@ export default function Home(){
                                 <h3 className='font-bold mb-3'>FAIR PRICE</h3>
                                 
                                 <p className='fontColor'>
-                                We understand that renovating your space is an investment, and at Handyman, we are committed to making that investment as accessible as possible. That's why we offer fair, transparent pricing and flexible financing options tailored to suit your budget. Whether
+                                We know that renovations are big and expensive projects, but while working with us we are committed to making renovations accessible. We offer fair and transparent prices with fair financing options to fit your budget. 
                                 </p>
                             </div>
                         </div>
@@ -168,7 +173,7 @@ export default function Home(){
                             </div>
                             <div className="flex-col px-10 md:px-5  ">
                                     <p style={{ fontSize: '14px'}}>
-                                    HandyMan team is constantly striving for perfection. We are lucky to work with notable and known clients, who trust us and let us guide them with our creative vision, making their real estate dreams true.
+                                    Our team is constantly striving for perfection. We are lucky to build relationships with our clients and the community. Building this relationships help in making every client's renovation needs a reality.
                                     </p>
                             </div>
 

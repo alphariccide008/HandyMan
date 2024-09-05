@@ -98,7 +98,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className="mt-5">At All-Remodelling, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
+                        className="mt-5 text-sm">At All-Remodelling, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
                         </motion.h6>
                         
                         <motion.div
@@ -204,7 +204,8 @@ const About = () => {
                         </motion.div>
                         <div className="flex-col px-4 md:px-5">
                             <p className='text-sm' style={{fontSize: "12px"}}>
-                            We want to live in a world where people can buy homes that match their needs, rather than having to find a compromise and settle on the second-best option. That's why we take a lot of time and care in getting to know our clients from the moment they reach out to us and ask for our help. 
+                            We want to live in a world where people can design homes that match their needs. That's why we take a lot of time and care in getting to know our clients from the moment they reach out to us and ask for our help.
+
                             </p>
                         </div>
                     </div>
