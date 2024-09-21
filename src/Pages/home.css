@@ -31,6 +31,14 @@
   background-position: center;
   background-attachment: fixed;
 }
+.home1{
+  background-image:linear-gradient(to bottom, rgba(12, 12, 24, 0.6), rgba(10,10,30, 0.7)), url('/src/assets/images/firstbanner.jpg'); 
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+}
 
 .text-color{
   color: rgb(215, 226, 228);
