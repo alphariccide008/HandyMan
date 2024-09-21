@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './home.css';
 import { motion } from 'framer-motion';
 import FirstImg from '../assets/images/projects.jpeg'
-import BannerImg from '../assets/images/project1.jpg'
+import BannerImg from '../assets/images/bannerimg.webp'
 import SecondImg from '../assets/images/Aboutus.jpeg'
 import ThridImg from '../assets/images/toilet3.jpg'
 import { FaToolbox, FaTools ,FaStackExchange,FaFan} from 'react-icons/fa';
@@ -12,7 +12,7 @@ export default function Home(){
     return (
         <>
             {/* This is the Hero Section */}
-            <section className='hero text-black pt-10  md:pt-28   '>
+            <section className='home text-black pt-10  md:pt-28   '>
                <div className='lg:mx-[20%]'>
 
                 <div className='relative '>
@@ -29,7 +29,7 @@ export default function Home(){
                               }}
                             
 
-                            className='pb-2 md:img-shadow2 ' style={{fontSize:'15px'}}>LET US RE-VAMP YOUR HOME </motion.h1>
+                            className='pb-2 md:img-shadow2 md:text-center text-color' style={{fontSize:'15px',color:''}}>LET US RE-MODEL YOUR HOME </motion.h1>
                             <motion.h3 
                             
                             
@@ -42,7 +42,7 @@ export default function Home(){
                               delay: 0.6,
                             }}
 
-                            className='md:absolute  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold'>BRINGING IMAGINATIONS TO LIFE</motion.h3>
+                            className='  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold text-color2 lg:text-start md:text-center'>BUILDING YOUR VISION RECREATING YOUR IMAGINATIONS</motion.h3>
 
 
                             
@@ -59,24 +59,14 @@ export default function Home(){
                               delay: 0.8,
                             }}
 
-                            className='mt-32 pr-10 hidden md:flex-col md:flex '>Let us revamp your home
+                            className='mt-32 md:mt-10 lg:mt-10 md md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 '>Let us re-model your home
                             Making imagination a reality Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
                         </div>
                         <div className="md:w-1/2  md:space-y-1  md:flex flex-col">
                             
-                            <motion.img 
-                            initial={{ opacity: 0, scale: 0 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{
-                              type: "spring",
-                              stiffness: 150,
-                              damping: 10,
-                              delay : 0.10,
-                              }}
-                            
-                            src={BannerImg} alt="Interior" style={{ height: '408px', width:'100%', borderRadius:'10px'}} />
+                           
                             <motion.h5 
                             
                             initial={{ opacity: 0, y: -100 }}
@@ -88,7 +78,7 @@ export default function Home(){
                               delay: 0.8,
                             }}
                             
-                            className='mt-10 pr-10  md:hidden ' style={{ fontSize:'14px'}}>Let us revamp your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            className='mt-10 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
                         </div>
@@ -102,54 +92,50 @@ export default function Home(){
 
 
             {/* What we Offer section */}
-            <section className='offer justify-center'>
+            <section className=' justify-center'>
                 <div className='lg:mx-[18%]'>
-                <div className="container relative md:flex md:px-5  px-10 py-28  ">
-                    <div className="md:w-1/2 flex-col lg:px-20">
-                        <h1 className='text-4xl font-bold text-center md:mb-10'>WHAT WE OFFER</h1>
-                        <p className='hidden md:flex mt-48'>__________________________________</p>
-                        <p className='mb-10 md:hidden'>___________________________________</p>
-                    </div>
-                    <div className="md:w-1/2 flex-col lg:px-10 md:justify-center">
-                        <div className="md:flex mb-5 ">
-                            <div className="flex-col">
-                                <FaToolbox className='text-4xl mb-3 mt-7 '/>
-                            </div>
-                            <div className="flex-col px-10 ">
-                                <h3 className='font-bold mb-3'>EXPERIENCED TEAM</h3>
-                                <p className='fontColor'>
-                                Every member of our team is a master of their craft. Each one of us has years of experience under our belt and are passionate about what we do. This passion is seen in each and every project we get our hands on. 
-                                </p>
-                            </div>
-                        </div>
-                        <div className="md:flex mb-5 ">
-                            <div className="flex-col">
-                                <FaTools className='text-4xl mb-3 my-8  '/>
-                            </div>
-                            <div className="flex-col px-10 ">
-                                <h3 className='font-bold mb-3'>PERSONALIZED SERVICE</h3>  
-                                <p className='fontColor'>
-                                We know and understand that your home is a representation of your personal style and needs. We work with you to create the perfect space that fits your needs and vision. 
-                                </p>
-                            </div>
-                        </div>
-                        <div className="md:flex mb-5 ">
-                            <div className="flex-col">
-                                <FaStackExchange className='text-4xl mb-3 mt-7 '/>
-                            </div>
-                            <div className="flex-col px-10 ">
-                                <h3 className='font-bold mb-3'>FAIR PRICE</h3>
-                                
-                                <p className='fontColor'>
-                                We know that renovations are big and expensive projects, but while working with us we are committed to making renovations accessible. We offer fair and transparent prices with fair financing options to fit your budget. 
-                                </p>
-                            </div>
-                        </div>
-                        
-                       
-                        
-                    </div>
+                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-28  ">
+                    <h1 className='font-bold  md:text-6xl  text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
+                    <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
+                    <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
+                    <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'12px'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+                    
                 </div>
+                
+                </div>
+                <div className="md:flex mx-14 mt-12 text-black">
+                    <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
+                    <div className="flex-col md:w-1/2 md:px-[20px] lg:pt-20 lg:px-[100px]">
+                        <h1 className='font-bold md:text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
+                        <h1 className='text-sm my-10' style={{color:'#333333'}}>At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.</h1>
+                        
+                        <button 
+                        class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                        >
+                        <span
+                            class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                        ></span>
+                        <span
+                            class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                            >Read More</span
+                        >
+                        </button>
+
+                    </div>
                 </div>
             </section>
 
