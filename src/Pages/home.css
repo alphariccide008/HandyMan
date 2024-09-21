@@ -64,3 +64,24 @@
 .checkColor{
   background-color: rgb(223, 225, 226);
 }
+
+
+
+.service{
+  background-image: url('/src/assets/images/projects.jpeg'); 
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: auto;
+  background-position: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
