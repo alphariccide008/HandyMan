@@ -12,7 +12,141 @@ export default function Home(){
     return (
         <>
             {/* This is the Hero Section */}
-            <section className='home text-black pt-10  md:pt-28   '>
+            <section className='home hidden md:flex text-black pt-10  md:pt-28   '>
+               <div className='lg:mx-[20%]'>
+
+                <div className='relative '>
+                    <div className="md:flex container px-5 gap-3 pb-20">
+                        <div className="md:w-1/2 img-shadow2 mt-28  flex-col">
+                            <motion.h1 
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                              type: "spring",
+                              stiffness: 150,
+                              damping: 10,
+                              delay : 0.4,
+                              }}
+                            
+
+                            className='pb-2 md:img-shadow2 lg:text-start md:text-center text-color' style={{fontSize:'15px',color:''}}>LET US RE-MODEL YOUR HOME </motion.h1>
+                            <motion.h3 
+                            
+                            
+                            initial={{ opacity: 0, x: -100 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{
+                              type: "spring",
+                              stiffness: 150,
+                              damping: 10,
+                              delay: 0.6,
+                            }}
+
+                            className='  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold text-color2 lg:text-start md:text-center'>BUILDING YOUR VISION RECREATING YOUR IMAGINATIONS</motion.h3>
+
+
+                            
+
+                            <motion.h5
+                            
+                            
+                            initial={{ opacity: 0, y: -100 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{
+                              type: "spring",
+                              stiffness: 150,
+                              damping: 10,
+                              delay: 0.8,
+                            }}
+
+                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 '>Let us re-model your home
+                            Making imagination a reality Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            
+                            </motion.h5>
+                            <div className='hidden md:flex mt-10'>
+                            <button 
+                        class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                        >
+                        <span
+                            class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                        ></span>
+                        <span
+                            class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                            >Explore Our Project</span
+                        >
+                        </button> 
+                            </div>
+                        </div>
+                        <div className="md:w-1/2  md:space-y-1  md:flex flex-col">
+                            
+                           
+                            <motion.h5 
+                            
+                            initial={{ opacity: 0, y: -100 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{
+                              type: "spring",
+                              stiffness: 150,
+                              damping: 10,
+                              delay: 0.8,
+                            }}
+                            
+                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            
+                            </motion.h5>
+                           <div className='md:hidden'>
+                           <button 
+                        class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                        >
+                        <span
+                            class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                        ></span>
+                        <span
+                            class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                            >Explore Our Project</span
+                        >
+                        </button>
+                           </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+
+               </div>
+            </section>
+            
+            {/* this is the mobile version of the hero page */}
+            <section className='home1 md:hidden text-black pt-10  md:pt-28   '>
                <div className='lg:mx-[20%]'>
 
                 <div className='relative '>
