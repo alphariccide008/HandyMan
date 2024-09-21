@@ -186,9 +186,79 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Read More</span
+                            >About Us</span
                         >
                         </button>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            {/* what we offer section */}
+            <section className=' justify-center mb-10'>
+                <div className='lg:mx-[18%] '>
+                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-28  ">
+                    <h1 className='font-bold  md:text-6xl  text-center mb-5'>Expertly crafting your dream</h1>
+                    <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_______________________</p>
+                    <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
+                    <h1 className='text-sm md:py-3 mb-10' style={{color:'#666666', fontSize:'12px'}}>We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.</h1>
+                   
+
+                    <div className='px-[32%]'>
+                    <a 
+                            class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                            >
+                            <span
+                                class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                            ></span>
+                            <span
+                                class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                                >SERVICES</span>
+                    </a>
+
+                    </div>
+                </div>
+               
+                
+                </div>
+                <div className="flex mx-5 md:mx-[18%] mt-8 text-black  img-shadow2 " >
+                    <div className=" w-1/2  service" style={{borderTopLeftRadius:'10px',borderBottomLeftRadius:'10px'}}>
+                        
+                    </div>
+                    <div className=" w-1/2 md:px-[20px] p-[20px] lg:pt-20 bg-orange-50  lg:px-[100px]" style={{borderTopRightRadius:'10px',borderBottomRightRadius:'10px'}}>
+                        <h1 className='font-bold md:text-2xl lg:text-2xl' style={{color:'#666666'}}>Residential</h1>
+                        <hr />
+                        <p className='pb-5 ' style={{fontSize:'12px',color:'#666666'}}>Personalized home interiors</p>
+                        <h1 className='font-bold md:text-2xl lg:text-2xl' style={{color:'#666666'}}>Planning</h1>
+                        <hr />
+                        <p className='pb-5'  style={{fontSize:'12px',color:'#666666'}}>Optimized Layouts</p>
+                        <h1 className='font-bold md:text-2xl lg:text-2xl' style={{color:'#666666'}}>Renovation</h1>
+                        <hr />
+                        <p className='pb-5' style={{fontSize:'12px',color:'#666666'}}>Seamless space Updates</p>
+                        <h1 className='font-bold md:text-2xl lg:text-2xl' style={{color:'#666666'}}>Redesign</h1>
+                        <hr />
+                        <p className='pb-5' style={{fontSize:'12px',color:'#666666'}}>Innovative transformations</p>
+                        
+                        
+                        
+                        
 
                     </div>
                 </div>

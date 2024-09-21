@@ -67,69 +67,21 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-.grid-item {
-  background-size: cover;
+.service{
+  background-image: url('/src/assets/images/projects.jpeg'); 
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: auto;
   background-position: center;
-  height: 200px;
-  position: relative;
-  transition: all 0.3s ease;
+  
 }
 
-.grid-item:nth-child(1) {
-  background-image: url('static/images/oilboom.jpg');
-}
 
-.grid-item:nth-child(2) {
-  background-image: url('static/images/oil-skimmer-desmi.webp');
-}
 
-.grid-item:nth-child(3) {
-  background-image: url('https://img.freepik.com/free-photo/oil-pumps-work-rhythmically-against-backdrop-dusky-sky_157027-4033.jpg');
-}
 
-.grid-item:nth-child(4) {
-  background-image: url('static/images/desmi-power-pack.webp');
-}
 
-.grid-item:nth-child(5) {
-  background-image: url('static/images/7.jpg');
-}
 
-.grid-item:nth-child(6) {
-  background-image: url('static/images/trailervacuumsystem.jpg');
-}
 
-.grid-item:nth-child(7) {
-  background-image: url('static/images/Ancillaries.webp');
-}
 
-.grid-item:nth-child(8) {
-  background-image: url('static/images/workboat2.webp');
-}
 
-.overlay {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
 
-.grid-item:hover .overlay {
-  opacity: 1;
-}
-
-.dark-overlay {
-  transition: background-color 0.3s ease;
-}
-
-.grid-item:hover .dark-overlay {
-  opacity: 0.5;
-}
