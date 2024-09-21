@@ -22,6 +22,22 @@
   }
 
 
+
+.home{
+  background-image:linear-gradient(to bottom, rgba(12, 12, 24, 0.6), rgba(10,10,30, 0.7)), url('/src/assets/images/firstbanner.jpg'); 
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text-color{
+  color: rgb(215, 226, 228);
+}
+.text-color2{
+  color: rgb(213, 213, 213);
+}
 .offer{
     min-height: 500px;
     background-color: rgb(33, 32, 32);
