@@ -6,6 +6,13 @@ import FirstImg from '../assets/images/projects.jpeg'
 import BannerImg from '../assets/images/bannerimg.webp'
 import SecondImg from '../assets/images/Aboutus.jpeg'
 import ThridImg from '../assets/images/toilet3.jpg'
+import Roofing from '../assets/images/roofing.webp'
+import HomeBath from '../assets/images/homebath.webp'
+import Homekitch from '../assets/images/homekitchen.webp'
+import bedRoom from '../assets/images/bedroom1.jpg'
+import backYard from '../assets/images/backyard.webp'
+import Adu from '../assets/images/adu.jpg'
+
 import { FaToolbox, FaTools ,FaStackExchange,FaFan} from 'react-icons/fa';
 
 export default function Home(){
@@ -283,8 +290,8 @@ export default function Home(){
             {/* What we Offer section */}
             <section className=' justify-center'>
                 <div className='lg:mx-[18%] '>
-                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-28  ">
-                    <h1 className='font-bold  md:text-6xl  text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
+                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
+                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
                     <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
                     <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'12px'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
@@ -292,14 +299,15 @@ export default function Home(){
                 </div>
                 
                 </div>
-                <div className="md:flex mx-8 mt-12 text-black">
+                <div className="md:flex mx-8 mt-8 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
                     <div className="flex-col md:w-1/2 md:px-[20px] lg:pt-20 lg:px-[100px]">
-                        <h1 className='font-bold md:text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
+                        <h1 className='font-bold md:text-sm mb-4 lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
+                        <hr />
                         <h1 className='text-sm my-10' style={{color:'#333333'}}>At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.</h1>
                         
                         <button 
-                        class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                        class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
                         <span
                             class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
@@ -329,12 +337,164 @@ export default function Home(){
             </section>
 
 
+            
+            {/* Showcase section */}
+            <section className='px-10 bg-gray-200 md:py-20'>
+                <div className="container relative text-center text-black md:px-36 px-5 md:py-28">
+                    <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>ShowCase</h1>
+                    <p className='md:flex hidden text-center md:px-[25%]' style={{ color: '#666666' }}>
+                    _____________________ <span className='mt-2 text-sm'>QUIET PLACE</span> _______________________
+                    </p>
+                    <p className='md:hidden py-4' style={{ color: '#666666' }}>
+                    _______________ <span className='mt-5 text-sm'>QUIET PLACE</span> _______________
+                    </p>
+                </div>
+
+                <div className="md:flex text-black">
+                    <div className="flex-col md:w-1/2 md:py-32 text-color lg:py-52 lg:px-32 bg-slate-500 mb-5 py-20 px-20" style={{ borderRadius: '10px' }}>
+                        <h1 className='md:text-5xl font-bold mb-5  text-2xl'>Why Choose Us ?</h1>
+                        <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
+                    </div>
+
+                    <div className="flex-col md:w-1/2 px-4">
+                    {/* Image Grid with Overlay */}
+                    <div className="md:flex">
+                        <div className="flex-col p-1 md:w-1/2 relative group">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                            type: "spring",
+                            stiffness: 150,
+                            damping: 10,
+                            delay: 0.8,
+                            }}
+                            src={HomeBath} alt="Interior"
+                            style={{ height: '200px', width: '100%', borderRadius: '10px' }}
+                            className="group-hover:opacity-50"
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                            <p className="text-white text-lg">Bathroom</p>
+                        </div>
+                        </div>
+
+                        <div className="flex-col p-1 md:w-1/2 relative group">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                            type: "spring",
+                            stiffness: 150,
+                            damping: 10,
+                            delay: 0.8,
+                            }}
+                            src={backYard} alt="Interior"
+                            style={{ height: '200px', width: '100%', borderRadius: '10px' }}
+                            className="group-hover:opacity-50"
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                            <p className="text-white text-lg">Backyard</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="md:flex">
+                        <div className="flex-col p-1 md:w-1/2 relative group">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                            type: "spring",
+                            stiffness: 150,
+                            damping: 10,
+                            delay: 0.8,
+                            }}
+                            src={bedRoom} alt="Interior"
+                            style={{ height: '200px', width: '100%', borderRadius: '10px' }}
+                            className="group-hover:opacity-50"
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                            <p className="text-white text-lg">Bedroom</p>
+                        </div>
+                        </div>
+
+                        <div className="flex-col p-1 md:w-1/2 relative group">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                            type: "spring",
+                            stiffness: 150,
+                            damping: 10,
+                            delay: 0.8,
+                            }}
+                            src={Adu} alt="Interior"
+                            style={{ height: '200px', width: '100%', borderRadius: '10px' }}
+                            className="group-hover:opacity-50"
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                            <p className="text-white text-lg" >ADU</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="md:flex">
+                        <div className="flex-col p-1 md:w-1/2 relative group">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                            type: "spring",
+                            stiffness: 150,
+                            damping: 10,
+                            delay: 0.8,
+                            }}
+                            src={Homekitch} alt="Interior"
+                            style={{ height: '200px', width: '100%', borderRadius: '10px' }}
+                            className="group-hover:opacity-50"
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                            <p className="text-white text-lg">Kitchen</p>
+                        </div>
+                        </div>
+
+                        <div className="flex-col p-1 md:w-1/2 relative group">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                            type: "spring",
+                            stiffness: 150,
+                            damping: 10,
+                            delay: 0.8,
+                            }}
+                            src={Roofing} alt="Interior"
+                            style={{ height: '200px', width: '100%', borderRadius: '10px' }}
+                            className="group-hover:opacity-50"
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                            <p className="text-white text-lg">Roofing</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+
+
 
 
             {/* what we offer section */}
             <section className=' justify-center mb-10'>
                 <div className='lg:mx-[18%] '>
-                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-28  ">
+                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
                     <h1 className='font-bold  md:text-6xl  text-center mb-5'>Expertly crafting your dream</h1>
                     <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_______________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
@@ -372,7 +532,7 @@ export default function Home(){
                
                 
                 </div>
-                <div className="flex mx-5 md:mx-[18%] mt-8 text-black  img-shadow2 " >
+                <div className="flex mx-5 md:mx-[18%] md:pb-5 mt-5 text-black  img-shadow2 " >
                     <div className=" w-1/2  service" style={{borderTopLeftRadius:'10px',borderBottomLeftRadius:'10px'}}>
                         
                     </div>
