@@ -351,7 +351,7 @@ export default function Home(){
                 </div>
 
                 <div className="md:flex text-black">
-                    <div className="flex-col md:w-1/2 md:py-32 text-color lg:py-52 lg:px-32 bg-slate-500 mb-5 py-20 px-20" style={{ borderRadius: '10px' }}>
+                    <div className="flex-col md:w-1/2 md:py-32 mt-5 text-color lg:py-52 lg:px-32 bg-slate-500 mb-5 py-20 px-20" style={{ borderRadius: '10px' }}>
                         <h1 className='md:text-5xl font-bold mb-5  text-2xl'>Why Choose Us ?</h1>
                         <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
                     </div>
