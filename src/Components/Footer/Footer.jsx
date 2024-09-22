@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="flex-col md:w-1/2  pt-[30px] ">
             <div className='flex mb-4 items-center justify-center'>
               <img src={Logo} alt="" style={{height:'70px', width:'20%'}} />
-              <h4 className='text-white font-bold mt-9'>ALL-REMODELLING</h4>
+              <h4 className='text-white font-bold mt-9'>ALL-HANDYMAN</h4>
               </div>
                
               <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
@@ -39,9 +39,10 @@ const Footer = () => {
               <h2 className='font-bold text-white pb-3 '>Quick Link</h2>
              
               <ul className='py-8 px-[20px]' style={{fontSize:'14px'}} >
-                <li className='pb-3  hover:text-blue-400'><Link to={'/'}>Home</Link></li>
-                <li className='pb-3  hover:text-blue-400'><Link to={'/about'}>About Us</Link></li>
-                <li className='pb-3  hover:text-blue-400'><Link to={'/services'}>Services</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/'}>Home</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/about'}>About Us</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/services'}>Services</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/contact'}>Contact Us</Link></li>
                 
               </ul>
             </div>
@@ -49,10 +50,12 @@ const Footer = () => {
               <h2 className='text-white pb-3 font-bold'>Services</h2>
              
               <ul className='py-8 px-[20px]' style={{fontSize:'14px'}}>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/bathroom'}>Restroom Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/bathroom'}>Bathroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/kitchen'}>Kitchen Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Living Room Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Adu Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Bedroom Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Backyard Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Roofing Remodeling</Link></li>
                 
               </ul>
             </div>
@@ -71,7 +74,7 @@ const Footer = () => {
               </div>
               <div className='flex justify-center clr my-3 'style={{fontSize:'12px'}}>
               <FaSearchLocation className='mt-1 mx-1 hover:text-blue-400'/>
-                : 15400 Excelsior Dr, Bowie, MD 20716, USA
+                : 12111 Ravenwood Ct. Silver Spring, MD 20902, USA
                 
               </div>
               <iframe

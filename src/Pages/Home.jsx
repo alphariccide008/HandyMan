@@ -71,7 +71,7 @@ export default function Home(){
                             
                             </motion.h5>
                             <div className='hidden md:flex mt-10'>
-                            <button 
+                            <Link to={'/services'}
                         class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
                         <span
@@ -93,9 +93,8 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Explore Our Project</span
-                        >
-                        </button> 
+                            >Explore Our Project</span>
+                        </Link> 
                             </div>
                         </div>
                         <div className="md:w-1/2  md:space-y-1  md:flex flex-col">
@@ -116,7 +115,7 @@ export default function Home(){
                             
                             </motion.h5>
                            <div className='md:hidden'>
-                           <button 
+                           <Link to={'/services'}
                         class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
                         <span
@@ -140,7 +139,7 @@ export default function Home(){
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
                             >Explore Our Project</span
                         >
-                        </button>
+                        </Link>
                            </div>
 
                         </div>
@@ -205,7 +204,7 @@ export default function Home(){
                             
                             </motion.h5>
                             <div className='hidden md:flex mt-10'>
-                            <button 
+                            <Link to={'/services'}
                         class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
                         <span
@@ -229,7 +228,7 @@ export default function Home(){
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
                             >Explore Our Project</span
                         >
-                        </button> 
+                        </Link> 
                             </div>
                         </div>
                         <div className="md:w-1/2  md:space-y-1  md:flex flex-col">
@@ -249,8 +248,8 @@ export default function Home(){
                             className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
-                           <div className='md:hidden'>
-                           <button 
+                           <div className='md:hidden pr-[50%]'>
+                           <Link to={'/services'}
                         class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
                         <span
@@ -274,7 +273,7 @@ export default function Home(){
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
                             >Explore Our Project</span
                         >
-                        </button>
+                        </Link>
                            </div>
 
                         </div>
@@ -294,19 +293,22 @@ export default function Home(){
                     <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
                     <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                    <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'12px'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+                    <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'14px'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
                     
                 </div>
                 
                 </div>
-                <div className="md:flex mx-8 mt-8 text-black">
+                <div className="md:flex mx-8 mt-5 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
-                    <div className="flex-col md:w-1/2 md:px-[20px] lg:pt-20 lg:px-[100px]">
-                        <h1 className='font-bold md:text-sm mb-4 lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
+                    <div className="flex-col md:w-1/2 md:px-[20px] lg:pt-10 lg:px-[100px]">
+                        <h1 className='font-bold md:text-sm mb-4 text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
                         <hr />
-                        <h1 className='text-sm my-10' style={{color:'#333333'}}>At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.</h1>
+                        <h1 className='text-sm mt-10' style={{color:'#333333'}}>At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.</h1>
+                        <p className='text-sm mb-10' style={{color:'#333333'}}>We specialize in comprehensive home remodeling that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail. We handle everything from room extensions and load-bearing wall modifications to bespoke furniture, cabinetry, and seamless smart home integration, all while adhering to the latest safety standards in plumbing and electrical systems.
+</p>
                         
-                        <button 
+                       <div className='pr-[60%] md:pr-[70%]'>
+                       <Link to={'/about'}
                         class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
                         <span
@@ -328,9 +330,9 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >About Us</span
-                        >
-                        </button>
+                            >About Us</span >
+                        </Link>
+                       </div>
 
                     </div>
                 </div>
@@ -351,9 +353,15 @@ export default function Home(){
                 </div>
 
                 <div className="md:flex text-black">
-                    <div className="flex-col md:w-1/2 md:py-32 mt-5 text-color lg:py-52 lg:px-32 bg-slate-500 mb-5 py-20 px-20" style={{ borderRadius: '10px' }}>
+                    <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-14 bg-slate-500 mb-5 py-10 px-10" style={{ borderRadius: '10px' }}>
                         <h1 className='md:text-5xl font-bold mb-5  text-2xl'>Why Choose Us ?</h1>
                         <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
+                        <p>
+                        Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
+                        </p>
+                        <p>
+                        At All Handyman, we believe in transparency and collaboration, offering competitive pricing without compromising on quality. Our dedication to personalized service means we work closely with you throughout the entire process, ensuring your vision is realized on time and within budget. Trust us to deliver exceptional results that make your home truly stand out.
+                        </p>
                     </div>
 
                     <div className="flex-col md:w-1/2 px-4">
@@ -495,14 +503,14 @@ export default function Home(){
             <section className=' justify-center mb-10'>
                 <div className='lg:mx-[18%] '>
                 <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
-                    <h1 className='font-bold  md:text-6xl  text-center mb-5'>Expertly crafting your dream</h1>
+                    <h1 className='font-bold text-2xl  md:text-6xl  text-center mb-5'>Expertly crafting your dream</h1>
                     <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_______________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
-                    <h1 className='text-sm md:py-3 mb-10' style={{color:'#666666', fontSize:'12px'}}>We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.</h1>
+                    <h1 className='text-sm md:py-3 mb-10' style={{color:'#666666', fontSize:'14px'}}>We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.</h1>
                    
 
                     <div className='px-[32%]'>
-                    <a 
+                    <Link to={'services'} 
                             class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                             >
                             <span
@@ -525,7 +533,7 @@ export default function Home(){
                             <span
                                 class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-white"
                                 >SERVICES</span>
-                    </a>
+                    </Link>
 
                     </div>
                 </div>
@@ -567,12 +575,12 @@ export default function Home(){
                <div  className="container relative text-center text-black    px-5 md:py-32  ">
                     <h1 className='font-bold  md:text-6xl lg:px-0 text-2xl text-center mb-5'>JOIN US IN INSPIRING DIALOGUE</h1>
                     <div className='md:px-32'>
-                        <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
-                        <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                        <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'12px'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
+                        <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>______________________________________________</p>
+                        <p className='md:hidden py-4' style={{color:'#666666'}}>________________________________</p>
+                        <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'14px'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
                        
                        <div className='md:px-32 px-14 py-10'>
-                       <a 
+                       <Link to={'/contact'}
                             class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                             >
                             <span
@@ -595,7 +603,7 @@ export default function Home(){
                             <span
                                 class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-white"
                                 >LET'S TALK</span>
-                    </a>
+                    </Link>
                        </div>
                     </div>
                     
@@ -609,12 +617,12 @@ export default function Home(){
 
         {/* Client Testimonial */}
         <section className='projects text-black pt-20 checkColor    '>
-               <div className='lg:mx-[10%] md:mx-[%]'>
+               <div className='lg:mx-[10%] md:mx-[%] text-center'>
                 
                 <div className='relative  '>
                     <h1 className='text-center text-4xl font-bold'>TESTIMONIAL</h1>
                     <div className="md:flex container px-5 gap-3 pb-10">
-                    <div className="md:w-1/2 img-shadow2 my-10 md:space-y-1 flex-col">
+                    <div className="md:w-1/3 img-shadow2 my-10 md:space-y-1 flex-col">
                             <motion.div 
                             
                              
@@ -628,9 +636,7 @@ export default function Home(){
                               }}
                             
                             className="md:flex card p-12  ">
-                                    <div className='flex-col'>
-                                        <FaFan className='my-4 mr-4' style={{fontSize:'70px'}}/>
-                                    </div>
+                                    
                                     <div>
                                         <h1 className='font-bold mb-4' style={{fontSize:'20px'}}>James Johnson</h1>
                                         <p style={{fontSize:'14px'}}>
@@ -641,7 +647,33 @@ export default function Home(){
                                     </div>
                             </motion.div>
                         </div>
-                        <div className="md:w-1/2 img-shadow2 my-10 md:space-y-1 flex-col">
+                        <div className="md:w-1/3 img-shadow2 my-10 md:space-y-1 flex-col">
+                            <motion.div 
+                            
+                             
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{
+                              type: "spring",
+                              stiffness: 150,
+                              damping: 10,
+                              delay : 0.6,
+                              }}
+                            
+                            className="md:flex card p-12  ">
+                                    
+                                    <div>
+                                        <h1 className='font-bold mb-4' style={{fontSize:'20px'}}>Sarah Mitchell</h1>
+                                        <p style={{fontSize:'14px'}}>
+                                        
+                                        "I cannot recommend All-handyman enough! They recently completed a full kitchen renovation for me, and the results were beyond my expectations. From the initial consultation to the final touches, their team was professional, attentive, and truly dedicated to making my vision a reality. They offered creative solutions to maximize space and functionality."
+
+
+                                        </p>
+                                    </div>
+                            </motion.div>
+                        </div>
+                        <div className="md:w-1/3 img-shadow2 my-10 md:space-y-1 flex-col">
                             <motion.div 
                             
                              
@@ -655,14 +687,12 @@ export default function Home(){
                               }}
                             
                             className="md:flex p-12  card">
-                                    <div className='flex-col'>
-                                        <FaFan className='my-4 mr-4' style={{fontSize:'70px'}}/>
-                                    </div>
+                                   
                                     <div>
                                         <h1 className='font-bold mb-4' style={{fontSize:'20px'}}>Noah Davis</h1>
                                         <p style={{fontSize:'14px'}}>
                                         
-                                        "I am writing to recommend all remodeling. I recently had them remodel my bathroom and I am absolutely thrilled with the results. all remodeling and his team were professional, efficient, and affordable. They listened to my needs and came up with a plan that was both functional and stylish. They worked hard to meet my deadlines and kept me updated on the progress of the project.
+                                        "I am writing to recommend all remodeling. I recently had them remodel my bathroom and I am absolutely thrilled with the results. all remodeling and his team were professional, efficient, and affordable. They listened to my needs and came up with a plan that was both functional and stylish. They worked hard to meet my deadlines and kept me updated."
                                         </p>
                                     </div>
                             </motion.div>
