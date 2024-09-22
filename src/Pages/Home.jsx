@@ -564,84 +564,45 @@ export default function Home(){
 
         <section className='projects text-black'>
                <div className='lg:mx-[20%]'>
-               <div className="container relative md:flex  px-10 py-10 pt-28 ">
-                    <div className="md:w-1/2 flex-col">
-                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>LATEST PROJECT</h1>
-                        <p className='text-center mb-5 md:hidden'>______________________________</p>
-                        
+               <div  className="container relative text-center text-black    px-5 md:py-32  ">
+                    <h1 className='font-bold  md:text-6xl lg:px-0 text-2xl text-center mb-5'>JOIN US IN INSPIRING DIALOGUE</h1>
+                    <div className='md:px-32'>
+                        <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
+                        <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
+                        <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'12px'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
+                       
+                       <div className='px-32 py-10'>
+                       <a 
+                            class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                            >
+                            <span
+                                class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                            ></span>
+                            <span
+                                class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                                >LET'S TALK</span>
+                    </a>
+                       </div>
                     </div>
-                    <div className="md:w-1/2 flex-col md:px-6 md:text-center  md:justify-center">
-                        <div className="md:flex mb-5">
-                            <div className="hidden md:flex-col md:flex">
-                                <FaFan className='text-5xl my-3 md:mx-3 img-shadow2 ring-blue-300 '/>
-                            </div>
-                            <div className="flex-col px-10 md:px-5  ">
-                                <p style={{ fontSize: '14px'}}>
-                                    Our team is constantly striving for perfection. We are lucky to build relationships with our clients and the community. Building this relationships help in making every client's renovation needs a reality.
-                                </p>
-                            </div>
-                        </div>                      
-                    </div>
+                    
                 </div>
                 
-                <div className='relative  '>
-                    <div className="md:flex container px-5 gap-3 pb-10">
-                        <div className="md:w-[70%] img-shadow2 flex-col">
-                            <motion.img 
-                            
-                            
-                            initial={{ opacity: 0, scale: 0 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{
-                              type: "spring",
-                              stiffness: 150,
-                              damping: 10,
-                              delay : 0.4,
-                              }}
-                            
-                            src={FirstImg} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
-                        </div>
-                        <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
-                            <motion.img 
-                            
-                             
-                            initial={{ opacity: 0, scale: 0 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{
-                              type: "spring",
-                              stiffness: 150,
-                              damping: 10,
-                              delay : 0.6,
-                              }}
-
-                            src={SecondImg} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
-                            <motion.img 
-                             
-                             initial={{ opacity: 0, scale: 0 }}
-                             whileInView={{ opacity: 1, scale: 1 }}
-                             transition={{
-                               type: "spring",
-                               stiffness: 150,
-                               damping: 10,
-                               delay : 0.8,
-                               }}
-                            
-                            src={ThridImg} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
-                        </div>
-                    </div>
-                </div>
-
-                <div className='relative mt-5  '>
-                    <div className="md:flex container px-5 gap-3 pb-10">
-                        <div className="md:w-[70%] img-shadow2 flex-col">
-                            <h1 className='text-2xl font-bold lg:pt-3 mb-8'>SUNSHINE RESIDENCE</h1>
-                        </div>
-                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-end lg:pr-[3%] md:pr[5%]">
-                            <Link to={'/services'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>See More</Link>
-                        </div>
-                    </div>
-                </div>
+                
+              
 
                </div>
             </section>
