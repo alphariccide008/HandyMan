@@ -571,7 +571,7 @@ export default function Home(){
                         <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
                         <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'12px'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
                        
-                       <div className='px-32 py-10'>
+                       <div className='md:px-32 px-14 py-10'>
                        <a 
                             class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                             >
