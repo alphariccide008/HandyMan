@@ -93,7 +93,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Learn More</span>
+                            >LEARN MORE</span>
                         </Link> 
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Learn More</span>
+                            >LEARN MORE</span>
                         </Link>
                            </div>
 
@@ -225,7 +225,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Learn More</span>
+                            >LEARN MORE</span>
                         </Link> 
                             </div>
                         </div>
@@ -269,7 +269,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Learn More</span>
+                            >LEARN MORE</span>
                         </Link>
                            </div>
 
@@ -332,7 +332,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >About Us</span >
+                            >ABOUT US</span >
                         </Link>
                        </div>
 
