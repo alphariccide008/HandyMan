@@ -89,7 +89,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className='lg:mt-42  md:mt-48 mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
+                        className='lg:mt-[46%]  md:mt-[43%] mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
                         </motion.h6>
 
                         <motion.h6
@@ -199,18 +199,18 @@ const About = () => {
         <section className=' justify-center'>
                 <div className='lg:mx-[18%] '>
                 <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
-                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>Discover Our Philosophy</h1>
-                    <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_________________________________________________________</p>
+                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-7 mt-10'>Discover Our Philosophy</h1>
+                    {/* <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_________________________________________________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>____________________________________</p>
-                    
+                     */}
                     
                 </div>
                 
                 </div>
                 <div className="md:flex mx-8 mt-2 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
-                    <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px lg:pt-12 lg:px-[100px]">
-                        <h1 className='font-bold md:text-sm mb-4 text-2xl lg:text-2xl' style={{color:'#666666'}}>
+                    <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px  px-20 lg:pt-12 lg:px-[100px]">
+                        <h1 className='font-bold md:text-sm mb-4  text-2xl lg:text-2xl' style={{color:'#666666'}}>
                          Our Design Philosphy</h1>
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
@@ -218,7 +218,16 @@ const About = () => {
                                 At All-Handyman, we believe that exceptional design should seamlessly blend aesthetics, functionality, and sustainability. Our approach is rooted in a profound understanding of our clients’ needs and the unique context of each project.
                             </p>
                             <p className=' pt-3 mb-10' style={{color:'#333333'}}>
-                            We collaborate closely with our clients throughout the entire design process, ensuring that their vision is brought to life in a way that is both beautiful and practical. By integrating environmentally responsible practices, we create spaces that are not only visually stunning but also harmonious with the environment.
+                            We collaborate closely with our clients throughout the entire design process, ensuring that their vision is brought to life in a way that is both beautiful and practical. 
+                            </p>
+                            <p className='lg:flex md:hidden' style={{color:'#333333'}}>
+                            By working together from the initial concept through to the final execution, we ensure that every detail aligns with their needs, preferences, and lifestyle. 
+                            </p>
+                            <p className='lg:flex md:hidden'  style={{color:'#333333'}}>
+                            Incorporating environmentally responsible practices is at the core of our philosophy. We carefully select sustainable materials and innovative design solutions that not only reduce the environmental impact but also enhance the long-term performance and sustainability of the space.
+                            </p>
+                            <p className=' pt-3 mb-10 lg:flex md:hidden ' style={{color:'#333333'}}>
+                            Our commitment to excellence drives us to deliver designs that are timeless, innovative, and tailored to enhance the lives of those who inhabit them.
                             </p>
                         </div>
                         

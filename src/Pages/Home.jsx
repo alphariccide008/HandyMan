@@ -286,11 +286,12 @@ export default function Home(){
             {/* What we Offer section */}
             <section className=' justify-center'>
                 <div className='lg:mx-[18%] '>
-                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
+                <div  className="container relative text-center text-black   px-5 md:py-20  ">
                     <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
-                    <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
+                    <p className='lg:flex md:hidden hidden text-center lg:px-[30%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_________________</p>
+                    
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                    <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
                     
                 </div>
                 
@@ -298,7 +299,7 @@ export default function Home(){
                 <div className="md:flex mx-8 mt-2 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
                     <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px lg:pt-4 lg:px-[100px]">
-                        <h1 className='font-bold md:text-sm mb-4 text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
+                        <h1 className='font-bold md:text-sm mb-4 lg:mt-[10%] text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
                             <p className=' mt-5' style={{color:'#333333'}}>
@@ -345,10 +346,8 @@ export default function Home(){
             {/* Showcase section */}
             <section className='px-10 bg-gray-200 md:py-20'>
                 <div className="container relative text-center text-black md:px-36 px-5 md:py-28">
-                    <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>ShowCase</h1>
-                    <p className='md:flex hidden text-center md:px-[25%]' style={{ color: '#666666' }}>
-                    _____________________ <span className='mt-2 text-sm'>QUIET PLACE</span> _______________________
-                    </p>
+                    <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>ShOWCASE</h1>
+                    <p className='lg:flex md:hidden hidden text-center lg:px-[33%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>QUIET PLACE</span>_________________</p>
                     <p className='md:hidden py-4' style={{ color: '#666666' }}>
                     _______________ <span className='mt-5 text-sm'>QUIET PLACE</span> _______________
                     </p>
@@ -356,7 +355,7 @@ export default function Home(){
 
                 <div className="md:flex text-black">
                     <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-32 bg-slate-500 mb-5 py-10 px-10" style={{ borderRadius: '10px' }}>
-                        <h1 className='md:text-5xl font-bold mb-5  text-3xl'>Why Choose Us ?</h1>
+                        <h1 className='md:text-5xl font-bold lg:mb-10 mb-5  text-3xl'>Why Choose Us ?</h1>
                         <div style={{ fontSize:'16px', fontFamily: 'Poppins, sans-serif'}} className='tex'>
                             <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
                             <p className='pt-3'>
@@ -506,9 +505,9 @@ export default function Home(){
             {/* what we offer section */}
             <section className=' justify-center mb-10'>
                 <div className='lg:mx-[18%] '>
-                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
+                {/* <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
                     <h1 className='font-bold text-2xl  md:text-6xl  text-center mb-5'>Expertly crafting your dream</h1>
-                    <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_______________________</p>
+                    <p className='lg:flex md:hidden hidden text-center lg:px-[30%] md:px ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
                     <h1 className='text-sm md:py-3 mb-10' style={{color:'#666666', fontSize:'16px', fontFamily: 'Poppins, sans-serif'}}>We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.</h1>
                    
@@ -540,6 +539,42 @@ export default function Home(){
                     </Link>
 
                     </div>
+                </div> */}
+                 <div  className="container relative text-center text-black   px-5 md:py-20  ">
+                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>EXPERTLY CRAFTING YOUR DREAMS</h1>
+                    <p className='lg:flex md:hidden hidden text-center lg:px-[33%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_________________</p>
+                    
+                    <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+
+                    <div className='px-[32%] mt-5'>
+                    <Link to={'services'} 
+                            class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                            >
+                            <span
+                                class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                            ></span>
+                            <span
+                                class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                                >SERVICES</span>
+                    </Link>
+
+                    </div>
+                    
                 </div>
                
                 
@@ -576,10 +611,10 @@ export default function Home(){
 
         <section className='projects text-black'>
                <div className='lg:mx-[20%]'>
-               <div  className="container relative text-center text-black    px-5 md:py-32  ">
+               {/* <div  className="container relative text-center text-black    px-5 md:py-32  ">
                     <h1 className='font-bold  md:text-6xl lg:px-0 text-2xl text-center mb-5'>JOIN US IN INSPIRING DIALOGUE</h1>
                     <div className='md:px-32'>
-                        <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>______________________________________________</p>
+                        <p className='md:flex hidden text-center lg:px-[30%] md:px-[10%] ' style={{color:'#666666'}}>______________________________________________</p>
                         <p className='md:hidden py-4' style={{color:'#666666'}}>________________________________</p>
                         <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
                        
@@ -609,6 +644,42 @@ export default function Home(){
                                 >LET'S TALK</span>
                     </Link>
                        </div>
+                    </div>
+                    
+                </div> */}
+                <div  className="container relative text-center text-black   px-5 md:py-20  ">
+                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>JOIN US IN INSPIRING DIALOGUE</h1>
+                    <p className='lg:flex md:hidden hidden text-center lg:px-[33%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>PASSION</span>_________________</p>
+                    
+                    <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >PASSION</span>  _________________</p>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
+
+                    <div className='px-[32%] mt-5'>
+                    <Link to={'services'} 
+                            class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                            >
+                            <span
+                                class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                            >
+                                <span
+                                class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                                ></span>
+                            </span>
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                            ></span>
+                            <span
+                                class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                                >LET'S TALK</span>
+                    </Link>
+
                     </div>
                     
                 </div>
