@@ -93,7 +93,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Explore Our Project</span>
+                            >Learn More</span>
                         </Link> 
                             </div>
                         </div>
@@ -137,8 +137,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Explore Our Project</span
-                        >
+                            >Learn More</span>
                         </Link>
                            </div>
 
@@ -226,8 +225,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Explore Our Project</span
-                        >
+                            >Learn More</span>
                         </Link> 
                             </div>
                         </div>
@@ -271,8 +269,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >Explore Our Project</span
-                        >
+                            >LEARN MORE</span>
                         </Link>
                            </div>
 
@@ -358,7 +355,7 @@ export default function Home(){
                 </div>
 
                 <div className="md:flex text-black">
-                    <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-32 bg-slate-500 mb-5 py-10 px-20" style={{ borderRadius: '10px' }}>
+                    <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-32 bg-slate-500 mb-5 py-10 px-10" style={{ borderRadius: '10px' }}>
                         <h1 className='md:text-5xl font-bold mb-5  text-3xl'>Why Choose Us ?</h1>
                         <div style={{ fontSize:'16px', fontFamily: 'Poppins, sans-serif'}} className='tex'>
                             <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
