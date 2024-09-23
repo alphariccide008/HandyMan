@@ -269,7 +269,7 @@ export default function Home(){
                         ></span>
                         <span
                             class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-                            >LEARN MORE</span>
+                            >Learn More</span>
                         </Link>
                            </div>
 
