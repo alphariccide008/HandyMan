@@ -62,14 +62,14 @@ function Contact() {
                 <div className="md:flex my-20 md:mt-52 lg:mt-52">
                   <div className="md:w-1/2 mb-10 flex-col">
                     <h1 className="font-bold">CONTACTS</h1>
-                    <p style={{ fontSize: '13px' }}>(240)871-8881</p>
+                    <p style={{ fontSize: '15px',fontFamily: 'Poppins, sans-serif' }}>(240)871-8881</p>
                     
-                    <p style={{ fontSize: '13px' }}>iallahandyman50@gmail.com</p>
+                    <p style={{ fontSize: '15px',fontFamily: 'Poppins, sans-serif' }}>iallahandyman50@gmail.com</p>
                   </div>
                   <div className="md:w-1/2 flex-col">
                     <h1 className="font-bold">ADDRESS</h1>
-                    <p className="pr-10" style={{ fontSize: '13px' }}>
-                      15400 Excelsior Dr, Bowie, MD 20716, USA
+                    <p className="pr-10" style={{ fontSize: '15px',fontFamily: 'Poppins, sans-serif' }}>
+                    12111 Ravenwood Ct. Silver Spring, MD 20902, USA
                     </p>
                   </div>
                 </div>
@@ -106,9 +106,9 @@ function Contact() {
           <div className="relative">
             <div className="md:flex container px-5 gap-3 pb-20">
               <div className="md:w-1/2 img-shadow2 mt-14 flex-col">
-                <div className="pb-4" style={{ fontSize: '13px' }}>
+                <div className="pb-4" style={{ fontSize: '20px' }}>
                   <h1 className="pb-5" style={{ fontSize: '50px' }}>SEND A MESSAGE</h1>
-                  If you're interested in hearing more about the way we work, have a business proposal, or are interested in making a purchase, we'd love to hear from you.
+                  <p style={{fontFamily: 'Poppins, sans-serif'}}>If you're interested in hearing more about the way we work, have a business proposal, or are interested in making a purchase, we'd love to hear from you.</p>
                 </div>
               </div>
               <div className="md:w-1/2 mt-5 md:space-y-1 md:mx-[10%] md:flex flex-col">

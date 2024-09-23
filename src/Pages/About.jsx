@@ -1,4 +1,7 @@
 import Banner from '../assets/images/about.jpg';
+import BannerImg from '../assets/images/livingroom2.jpg'
+import {Link} from 'react-router-dom'
+
 import {FaStar,
     FaFacebook, 
     FaTwitter,
@@ -73,7 +76,7 @@ const About = () => {
                               delay: 0.6,
                             }}
                         
-                        className=" md:absolute text-center  text-black mt-20   md:ml-[-186px]  " style={{ fontSize : "80px"}}> <span className='md:text-white'>AB</span><span className='md:img-shadow2'>OUT US</span>
+                        className=" md:absolute text-center  text-black mt-20   md:ml-[-186px]  " style={{ fontSize : "80px",fontFamily: 'Poppins, sans-serif'}}> <span className='md:text-white'>AB</span><span className='md:img-shadow2'>OUT US</span>
                         </motion.h2>
                         <hr className='md:hidden' />
                         
@@ -86,7 +89,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className='lg:mt-56  md:mt-48 mt-10   text-sm '> Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. Whether you're looking to revamp your home, office, or any other space, our team of experienced designers and skilled craftsmen are here to bring your vision to life.
+                        className='lg:mt-42  md:mt-48 mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
                         </motion.h6>
 
                         <motion.h6
@@ -98,7 +101,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className="mt-5 text-sm">At All-Remodelling, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
+                        className="mt-3 " style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>At All-Remodelling, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
                         </motion.h6>
                         
                         <motion.div
@@ -137,7 +140,7 @@ const About = () => {
                 
 
             className="relative   md:flex md:flex-row my-20 md:mx-[50px] md:px-10 lg:mx-[100px]">
-                <div className="flex-col md:w-1/2 px-5 fontColor">
+                <div className="flex-col md:w-1/2 px-10 fontColor">
                 <motion.h1 
                      initial={{ opacity: 0, x: -100 }}
                      animate={{ opacity: 1, x: 0 }}
@@ -148,6 +151,7 @@ const About = () => {
                        delay: 0.4,
                      }}
                 className='font-4xl text-center pt-28 pb-8 text-4xl font-bold'>OUR MISSION</motion.h1>
+                <hr />
                     <motion.div 
                     
                     initial={{ opacity: 0, y: -100 }}
@@ -158,19 +162,8 @@ const About = () => {
                       damping: 10,
                       delay: 1,
                     }}
-                    className="flex pb-[100px]">
-                        <motion.div 
-                             initial={{ opacity: 0, scale: 0 }}
-                             whileInView={{ opacity: 1, scale: 1 }}
-                             transition={{
-                               type: "spring",
-                               stiffness: 150,
-                               damping: 10,
-                               delay : 2,
-                               }}
-                            className="flex-col">
-                            <FaStar className='text-5xl mt-5'/>
-                        </motion.div>
+                    className="flex pb-[100px] pt-3 px-5">
+                        
                         <motion.div 
                          initial={{ opacity: 0, scale: 0 }}
                          whileInView={{ opacity: 1, scale: 1 }}
@@ -180,30 +173,20 @@ const About = () => {
                            damping: 10,
                            delay : 0.6,
                            }}
-                        className="flex-col px-5">
-                        <p className='text-sm' style={{fontSize : "12px"}}>
+                        className="flex-col px-7">
+                        <p className='text-sm' style={{fontSize : "16px", fontFamily: 'Poppins, sans-serif'}}>
                         We're on a mission to change the way the housing market works. Rather than offering one service or another, we want to combine as many and make our clients' lives easy and carefree. Our goal is to match our clients with the perfect properties that fit their tastes, needs, and budgets.
                         </p>
                         </motion.div>
                     </motion.div>
                 </div>
-                <div className="flex-col md:w-1/2 md:px-5 fontColor">
+                <div className="flex-col md:w-1/2 px-10 fontColor">
                 <h1 className='font-4xl text-center pt-28 pb-8 text-4xl font-bold'>OUR VISION</h1>
-                    <div className="flex pb-[100px] mx-3">
-                        <motion.div
-                          initial={{ opacity: 0, scale: 0 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 150,
-                            damping: 10,
-                            delay : 2,
-                            }}
-                        className="flex-col">
-                            <FaStar className='text-5xl mt-5'/>
-                        </motion.div>
-                        <div className="flex-col px-4 md:px-5">
-                            <p className='text-sm' style={{fontSize: "12px"}}>
+                <hr />
+                    <div className="flex pb-[100px] pt-3 mx-3">
+                       
+                        <div className="flex-col px-4 md:px-7">
+                            <p className='text-sm' style={{fontSize: "16px", fontFamily: 'Poppins, sans-serif'}}>
                             We want to live in a world where people can design homes that match their needs. That's why we take a lot of time and care in getting to know our clients from the moment they reach out to us and ask for our help.
 
                             </p>
@@ -213,8 +196,40 @@ const About = () => {
             </motion.div>
         </section>
 
+        <section className=' justify-center'>
+                <div className='lg:mx-[18%] '>
+                <div  className="container relative text-center text-black  md:px-36  px-5 md:py-20  ">
+                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>Discover Our Philosophy</h1>
+                    <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_________________________________________________________</p>
+                    <p className='md:hidden py-4' style={{color:'#666666'}}>____________________________________</p>
+                    
+                    
+                </div>
+                
+                </div>
+                <div className="md:flex mx-8 mt-2 text-black">
+                    <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
+                    <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px lg:pt-12 lg:px-[100px]">
+                        <h1 className='font-bold md:text-sm mb-4 text-2xl lg:text-2xl' style={{color:'#666666'}}>
+                         Our Design Philosphy</h1>
+                        <hr />
+                        <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
+                            <p className=' mt-5' style={{color:'#333333'}}>
+                                At All-Handyman, we believe that exceptional design should seamlessly blend aesthetics, functionality, and sustainability. Our approach is rooted in a profound understanding of our clients’ needs and the unique context of each project.
+                            </p>
+                            <p className=' pt-3 mb-10' style={{color:'#333333'}}>
+                            We collaborate closely with our clients throughout the entire design process, ensuring that their vision is brought to life in a way that is both beautiful and practical. By integrating environmentally responsible practices, we create spaces that are not only visually stunning but also harmonious with the environment.
+                            </p>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+            </section>
+
         {/* Why choose us */}
-        <section className=' chooseColor text-black '>
+        <section className=' chooseColor text-black ' style={{fontFamily: 'Poppins, sans-serif'}}>
             <div className="text-center font-bold md:px-8  px-4 pt-10">
                 <motion.h1 
                    initial={{ opacity: 0, x: -100 }}

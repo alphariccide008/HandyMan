@@ -304,7 +304,7 @@ export default function Home(){
                             <p className=' mt-5' style={{color:'#333333'}}>
                                 At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.
                             </p>
-                            <p className=' mb-10' style={{color:'#333333'}}>
+                            <p className=' pt-3 mb-10' style={{color:'#333333'}}>
                                 We specialize in comprehensive home remodeling that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail. 
                             </p>
                         </div>
@@ -359,7 +359,7 @@ export default function Home(){
                         <h1 className='md:text-5xl font-bold mb-5  text-3xl'>Why Choose Us ?</h1>
                         <div style={{ fontSize:'16px', fontFamily: 'Poppins, sans-serif'}} className='tex'>
                             <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
-                            <p>
+                            <p className='pt-3'>
                             Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
                             </p>
                             {/* <p>

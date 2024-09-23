@@ -19,7 +19,7 @@ const Footer = () => {
   {fontSize :'10px'}
   return (
     <>
-      <div className='footer '>
+      <div className='footer ' style={{fontFamily: 'Poppins, sans-serif'}}>
         <div className="relative hidden md:flex clr text-center md:mx-[12%]">
             <div className="flex-col md:w-1/2  pt-[30px] ">
             <div className='flex mb-4 items-center justify-center'>
