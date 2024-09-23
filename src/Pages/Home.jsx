@@ -66,7 +66,7 @@ export default function Home(){
                               delay: 0.8,
                             }}
 
-                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 '>Let us re-model your home
+                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 ' style={{fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home
                             Making imagination a reality Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
@@ -111,7 +111,7 @@ export default function Home(){
                               delay: 0.8,
                             }}
                             
-                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
                            <div className='md:hidden'>
@@ -199,7 +199,7 @@ export default function Home(){
                               delay: 0.8,
                             }}
 
-                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 '>Let us re-model your home
+                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 ' style={{fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home
                             Making imagination a reality Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
@@ -245,7 +245,7 @@ export default function Home(){
                               delay: 0.8,
                             }}
                             
-                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
                             
                             </motion.h5>
                            <div className='md:hidden pr-[50%]'>
@@ -293,21 +293,26 @@ export default function Home(){
                     <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
                     <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_______________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                    <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'14px'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+                    <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
                     
                 </div>
                 
                 </div>
-                <div className="md:flex mx-8 mt-5 text-black">
+                <div className="md:flex mx-8 mt-2 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
-                    <div className="flex-col md:w-1/2 md:px-[20px] lg:pt-10 lg:px-[100px]">
+                    <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px lg:pt-4 lg:px-[100px]">
                         <h1 className='font-bold md:text-sm mb-4 text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
                         <hr />
-                        <h1 className='text-sm mt-10' style={{color:'#333333'}}>At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.</h1>
-                        <p className='text-sm mb-10' style={{color:'#333333'}}>We specialize in comprehensive home remodeling that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail. We handle everything from room extensions and load-bearing wall modifications to bespoke furniture, cabinetry, and seamless smart home integration, all while adhering to the latest safety standards in plumbing and electrical systems.
-</p>
+                        <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
+                            <p className=' mt-5' style={{color:'#333333'}}>
+                                At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.
+                            </p>
+                            <p className=' mb-10' style={{color:'#333333'}}>
+                                We specialize in comprehensive home remodeling that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail. 
+                            </p>
+                        </div>
                         
-                       <div className='pr-[60%] md:pr-[70%]'>
+                       <div className='pr-[60%] mb-10 md:pr-[70%]'>
                        <Link to={'/about'}
                         class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
@@ -353,15 +358,17 @@ export default function Home(){
                 </div>
 
                 <div className="md:flex text-black">
-                    <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-14 bg-slate-500 mb-5 py-10 px-10" style={{ borderRadius: '10px' }}>
-                        <h1 className='md:text-5xl font-bold mb-5  text-2xl'>Why Choose Us ?</h1>
-                        <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
-                        <p>
-                        Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
-                        </p>
-                        <p>
-                        At All Handyman, we believe in transparency and collaboration, offering competitive pricing without compromising on quality. Our dedication to personalized service means we work closely with you throughout the entire process, ensuring your vision is realized on time and within budget. Trust us to deliver exceptional results that make your home truly stand out.
-                        </p>
+                    <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-32 bg-slate-500 mb-5 py-10 px-20" style={{ borderRadius: '10px' }}>
+                        <h1 className='md:text-5xl font-bold mb-5  text-3xl'>Why Choose Us ?</h1>
+                        <div style={{ fontSize:'16px', fontFamily: 'Poppins, sans-serif'}} className='tex'>
+                            <p>When it comes to remodeling your home, choosing the right contractor is crucial. All Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise.</p>
+                            <p>
+                            Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
+                            </p>
+                            {/* <p>
+                            At All Handyman, we believe in transparency and collaboration, offering competitive pricing without compromising on quality. Our dedication to personalized service means we work closely with you throughout the entire process, ensuring your vision is realized on time and within budget. Trust us to deliver exceptional results that make your home truly stand out.
+                            </p> */}
+                        </div>
                     </div>
 
                     <div className="flex-col md:w-1/2 px-4">
@@ -506,7 +513,7 @@ export default function Home(){
                     <h1 className='font-bold text-2xl  md:text-6xl  text-center mb-5'>Expertly crafting your dream</h1>
                     <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>_____________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_______________________</p>
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
-                    <h1 className='text-sm md:py-3 mb-10' style={{color:'#666666', fontSize:'14px'}}>We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.</h1>
+                    <h1 className='text-sm md:py-3 mb-10' style={{color:'#666666', fontSize:'16px', fontFamily: 'Poppins, sans-serif'}}>We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.</h1>
                    
 
                     <div className='px-[32%]'>
@@ -577,7 +584,7 @@ export default function Home(){
                     <div className='md:px-32'>
                         <p className='md:flex hidden text-center md:px-[10%] ' style={{color:'#666666'}}>______________________________________________</p>
                         <p className='md:hidden py-4' style={{color:'#666666'}}>________________________________</p>
-                        <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'14px'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
+                        <h1 className='text-sm md:py-3' style={{color:'#666666', fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
                        
                        <div className='md:px-32 px-14 py-10'>
                        <Link to={'/contact'}
