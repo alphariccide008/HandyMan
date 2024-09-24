@@ -53,10 +53,10 @@ const Footer = () => {
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bathroom'}>Bathroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/kitchen'}>Kitchen Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Sittingroom Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Adu Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/adu'}>Adu Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Bedroom Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Backyard Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Roofing Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/backyard'}>Backyard Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/roofing'}>Roofing Remodeling</Link></li>
                 
               </ul>
             </div>

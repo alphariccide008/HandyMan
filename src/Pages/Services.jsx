@@ -14,6 +14,16 @@ import Living3 from  '../assets/images/livingroom3.jpg';
 import Bedroom1 from  '../assets/images/bedroom1.jpg';
 import Bedroom2 from  '../assets/images/bedroom2.jpg';
 import Bedroom3 from  '../assets/images/bedroom3.jpg';
+import Roofing1 from  '../assets/images/roffing1.jpg';
+import Roofing2 from  '../assets/images/roofing2.jpg';
+import Roofing3 from  '../assets/images/roofing3.jpg';
+import Backyard1 from  '../assets/images/backyard1.jpeg';
+import Backyard2 from  '../assets/images/backyard2.jpeg';
+import Backyard3 from  '../assets/images/backyard3.jpg';
+import Adu1 from  '../assets/images/adu1.jpg';
+import Adu2 from  '../assets/images/adu2.jpg';
+import Adu3 from  '../assets/images/adu3.jpg';
+
 
 
 
@@ -185,7 +195,134 @@ const services = () => {
 
                </div>
       </section>
+      {/* Adu section */}
+      <section className=' text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10  ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>ADU REMODELLING</h1>
+                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        All-Handyman offers comprehensive apartment unit construction services, ensuring every project is built with precision, efficiency, and high-quality craftsmanship. Whether you're constructing a new apartment building or renovating existing units, our team delivers tailored solutions to meet your design and budget requirements. With a commitment to fair pricing and flexible financing options, we make apartment construction stress-free and seamless. Trust All-Handyman to bring your vision to life with attention to detail and superior results.
+
+
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                    <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Adu1} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Adu2} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Adu3} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="md:flex container px-5 gap-3 pb-10">
+                        
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-start lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/adu'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+
+               </div>
+            </section>
+
+
+        {/* backyard section */}
+        <section className='projects text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10 pt-28 ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>BACKYARD REMODELLING</h1>
+                        <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        At All-Handyman, we specialize in turning ordinary backyards into stunning outdoor retreats. Whether you're looking to add a new patio, deck, landscaping features, or a custom entertainment area, our team is ready to bring your backyard vision to life. With a focus on quality craftsmanship, attention to detail, and practical solutions, we ensure a backyard remodel that suits your lifestyle and budget. Enjoy fair pricing, flexible financing options, and a seamless remodeling experience with All-Handyman.
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Backyard3} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Backyard2} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Backyard1} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='relative mt-5  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-end lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/backyard'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+                </div>
+
+               </div>
+      </section>
+
+      {/* Roofing section */}
+       {/* Adu section */}
+       <section className=' text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10  ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>ROOFING REMODELLING</h1>
+                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        All-Handyman offers top-quality roofing services, providing durable and reliable solutions for all your roofing needs. Whether you're installing a new roof, repairing leaks, or upgrading to more energy-efficient materials, our experienced team ensures excellent craftsmanship and long-lasting results. We prioritize safety, affordability, and customer satisfaction, offering fair pricing and flexible financing options. Trust All-Handyman to protect your home with a roof that stands the test of time.
+
+
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                    <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Roofing1} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Roofing2} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Roofing3} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="md:flex container px-5 gap-3 pb-10">
+                        
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-start lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/roofing'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+
+               </div>
+            </section>
     </>
+
+    
 
       
   )

@@ -1,13 +1,13 @@
 import './LivingRoom.css';
 import { Link } from 'react-router-dom';
-import Living1 from  '../assets/images/livingroom1.jpg';
-import Living2 from  '../assets/images/livingroom2.jpg';
-import Living3 from  '../assets/images/livingroom3.jpg';
-import Living4 from  '../assets/images/livingroom4.jpg';
-import Living5 from  '../assets/images/livingroom5.jpg';
-import Living6 from  '../assets/images/livingroom6.jpg';
-import Living7 from  '../assets/images/livingroom7.jpeg';
-import Living8 from  '../assets/images/livingroom8.jpeg';
+import Roofing1 from  '../assets/images/roffing1.jpg';
+import Roofing2 from  '../assets/images/roofing2.jpg';
+import Roofing3 from  '../assets/images/roofing3.jpg';
+import Roofing4 from  '../assets/images/roofing4.jpg';
+import Roofing5 from  '../assets/images/roofing5.jpg';
+import Roofing6 from  '../assets/images/roofing6.jpg';
+import Roofing7 from  '../assets/images/roofing7.jpg';
+import Roofing8 from  '../assets/images/roofing8.jpg';
 
 
 
@@ -28,34 +28,34 @@ const Bathroom = () => {
         {/* section Gallery Images */}
         <section className='relative text-black'>
            <div className='mx-[5%] py-20'>
-                <h1 className='text-center font-bold text-2xl'>LIVING-ROOM GALLERY</h1>
+                <h1 className='text-center font-bold text-2xl'>ROOFING GALLERY</h1>
                 <div className="hidden md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Living1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
+                        <img src={Roofing5} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Living2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',}}/> 
+                        <img src={Roofing6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',}}/> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living3} alt="bathroom" width={'100%'} style={{borderRadius:'7px'}} /> 
+                    <img src={Roofing4} alt="bathroom" width={'100%'}  style={{borderRadius:'7px',height:'89%'}} /> 
                     </div>
                 </div>
                 <div className=" md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Living4} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                        <img src={Roofing8} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Roofing1} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Roofing2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Roofing3} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living5} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Roofing7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                 </div>
                 <div className='pr-[60%] mb-10 lg:pr-[90%] md:pr-[70%]'>

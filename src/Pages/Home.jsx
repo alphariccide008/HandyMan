@@ -346,7 +346,7 @@ export default function Home(){
             {/* Showcase section */}
             <section className='px-10 bg-gray-200 md:py-20'>
                 <div className="container relative text-center text-black md:px-36 px-5 md:py-28">
-                    <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>ShOWCASE</h1>
+                    <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>SHOWCASE</h1>
                     <p className='lg:flex md:hidden hidden text-center lg:px-[33%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>QUIET PLACE</span>_________________</p>
                     <p className='md:hidden py-4' style={{ color: '#666666' }}>
                     _______________ <span className='mt-5 text-sm'>QUIET PLACE</span> _______________
@@ -408,7 +408,7 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
-                            <Link to={''}>
+                            <Link to={'/backyard'}>
                                 <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
                                 <p className="text-white text-lg">Backyard</p>
                             </div>
@@ -454,7 +454,7 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
-                        <Link to={''}>
+                        <Link to={'/adu'}>
                             <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
                                 <p className="text-white text-lg" >ADU</p>
                             </div>
@@ -500,7 +500,7 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
-                        <Link to={''}>
+                        <Link to={'/roofing'}>
                         
                         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
                             <p className="text-white text-lg">Roofing</p>

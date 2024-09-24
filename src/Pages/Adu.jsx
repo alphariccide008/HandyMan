@@ -1,13 +1,14 @@
 import './LivingRoom.css';
 import { Link } from 'react-router-dom';
-import Living1 from  '../assets/images/livingroom1.jpg';
-import Living2 from  '../assets/images/livingroom2.jpg';
-import Living3 from  '../assets/images/livingroom3.jpg';
-import Living4 from  '../assets/images/livingroom4.jpg';
-import Living5 from  '../assets/images/livingroom5.jpg';
-import Living6 from  '../assets/images/livingroom6.jpg';
-import Living7 from  '../assets/images/livingroom7.jpeg';
-import Living8 from  '../assets/images/livingroom8.jpeg';
+import Adu1 from  '../assets/images/adu1.jpg';
+import Adu2 from  '../assets/images/adu2.jpg';
+import Adu3 from  '../assets/images/adu3.jpg';
+import Adu4 from  '../assets/images/adu4.jpg';
+import Adu5 from  '../assets/images/adu5.jpg';
+import Adu6 from  '../assets/images/adu6.jpg';
+import Adu7 from  '../assets/images/adu7.jpg';
+import Adu8 from  '../assets/images/adu8.jpg';
+
 
 
 
@@ -28,34 +29,34 @@ const Bathroom = () => {
         {/* section Gallery Images */}
         <section className='relative text-black'>
            <div className='mx-[5%] py-20'>
-                <h1 className='text-center font-bold text-2xl'>LIVING-ROOM GALLERY</h1>
+                <h1 className='text-center font-bold text-2xl'>ADU GALLERY</h1>
                 <div className="hidden md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Living1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
+                        <img src={Adu1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Living2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',}}/> 
+                        <img src={Adu2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',}}/> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living3} alt="bathroom" width={'100%'} style={{borderRadius:'7px'}} /> 
+                    <img src={Adu3} alt="bathroom" width={'100%'} style={{borderRadius:'7px'}} /> 
                     </div>
                 </div>
                 <div className=" md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Living4} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                        <img src={Adu4} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Adu5} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Adu6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Adu7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Living5} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Adu8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                 </div>
                 <div className='pr-[60%] mb-10 lg:pr-[90%] md:pr-[70%]'>

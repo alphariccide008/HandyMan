@@ -1,6 +1,5 @@
 import Banner from '../assets/images/about.jpg';
 import BannerImg from '../assets/images/livingroom2.jpg'
-import {Link} from 'react-router-dom'
 import { FaArrowDown} from 'react-icons/fa'
 
 import {FaStar,
@@ -230,6 +229,32 @@ const About = () => {
                             <p className=' pt-3 mb-10 lg:flex md:hidden ' style={{color:'#333333'}}>
                             Our commitment to excellence drives us to deliver designs that are timeless, innovative, and tailored to enhance the lives of those who inhabit them.
                             </p>
+                            <div className='pr-[60%] mb-10 md:pr-[70%]'>
+                       <Link to={'/contact'}
+                        class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
+                        >
+                        <span
+                            class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-cyan-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+                        >
+                            <span
+                            class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+                            ></span>
+                        </span>
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-cyan-600 rounded-md group-hover:translate-x-0"
+                        ></span>
+                        <span
+                            class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
+                            >LEARN MORE</span >
+                        </Link>
+                       </div>
                         </div>
                         
 
@@ -348,55 +373,55 @@ const About = () => {
             <div className=' text-center py-16 lg:py-30 lg:px-[25%] px-[10%]'>
             <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>FREQUENTLY ASKED QUESTIONS</h1>
                 
-                <p className="py-4" style={{fontSize:'16px'}}>Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p>
+                <p className="py-4 lg:px-10" style={{fontSize:'16px'}}>Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p>
 
                 <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
                     <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
                         <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
-                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                        <div className="flex-col lg:w-1/2  text-center "> How long does a typical remodeling project take?</div>
                       </div> 
                     </summary>
-                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>The duration of a project varies depending on its scope and complexity. We provide a detailed timeline during the planning phase.</p>
                 </details>
                 <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
                     <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
                         <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
-                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                        <div className="flex-col lg:w-1/2  text-center ">Do you offer free consultations?</div>
                       </div> 
                     </summary>
-                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Yes, we offer a free initial consultation to discuss your project ideas and provide a preliminary estimate.</p>
                 </details>
                 <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
                     <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
                         <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
-                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                        <div className="flex-col lg:w-1/2  text-center ">Are you licensed and insured?</div>
                       </div> 
                     </summary>
-                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Absolutely. We are fully licensed and insured to ensure the safety and peace of mind of our clients.</p>
                 </details>
                 <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
                     <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
                         <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
-                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                        <div className="flex-col lg:w-1/2  text-center ">Can I live in my home during the remodeling process?</div>
                       </div> 
                     </summary>
-                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}> Depending on the extent of the work, it may be possible. We strive to minimize disruption to your daily life.</p>
                 </details>
                 <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
                     <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
                         <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
-                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                        <div className="flex-col lg:w-1/2  text-center ">What types of payment do you accept?</div>
                       </div> 
                     </summary>
-                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>We accept various payment methods, including cash, checks, and major credit cards. Financing options are also available.</p>
                 </details>
                 <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
                     <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
                         <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
-                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                        <div className="flex-col lg:w-1/2  text-center "> How do you handle unexpected issues during the project?</div>
                       </div> 
                     </summary>
-                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}> We communicate any unforeseen issues promptly and work with you to find the best solution without compromising quality.</p>
                 </details>
                 
                 

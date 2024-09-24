@@ -11,6 +11,10 @@ import Bathroom from '../Pages/Bathroom';
 import Kitchen from '../Pages/Kitchen';
 import Bedroom from '../Pages/Bedroom';
 import LivingRoom from '../Pages/LivingRoom';
+import Roofing from '../Pages/Roofing';
+import Backyard from '../Pages/Backyard';
+import Adu from '../Pages/Adu';
+
 
 //Import Components................
 import Nav from '../Components/Nav/Nav'
@@ -26,11 +30,13 @@ export default function Router(){
             <Route path='/contact' element={<Contact/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/services' element={<Services/>} />
-            
+            <Route path='/adu' element={<Adu/>} />
             <Route path='/bathroom' element={<Bathroom/>} />
             <Route path='/kitchen' element={<Kitchen/>} />
             <Route path='/bedroom' element={<Bedroom/>} />
             <Route path='/livingroom' element={<LivingRoom/>} />
+            <Route path='/backyard' element={<Backyard/>} />
+            <Route path='/roofing' element={<Roofing/>} />
         </Routes>
        <Footer/>
         </BrowserRouter>
