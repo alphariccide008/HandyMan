@@ -57,7 +57,7 @@ const Bathroom = () => {
                     <img src={Bedroom8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'315px'}} /> 
                     </div>
                 </div>
-                <div className='pr-[60%] mb-10 lg:pr-[90%] md:pr-[70%]'>
+                <div className='pr-[50%] mb-10 lg:pr-[90%] md:pr-[70%]'>
                        <Link to={'/contact'}
                         class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >

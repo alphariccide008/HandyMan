@@ -230,7 +230,7 @@ const About = () => {
                             <p className=' pt-3 mb-10 lg:flex md:hidden ' style={{color:'#333333'}}>
                             Our commitment to excellence drives us to deliver designs that are timeless, innovative, and tailored to enhance the lives of those who inhabit them.
                             </p>
-                            <div className='pr-[60%] mb-10 md:pr-[70%]'>
+                            <div className='pr-[40%] mb-10 md:pr-[70%]'>
                        <Link to={'/contact'}
                         class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >
