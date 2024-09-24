@@ -1,6 +1,7 @@
 import Banner from '../assets/images/about.jpg';
 import BannerImg from '../assets/images/livingroom2.jpg'
 import { FaArrowDown} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 import {FaStar,
     FaFacebook, 
