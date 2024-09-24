@@ -52,6 +52,7 @@ const Footer = () => {
               <ul className='py-8 px-[20px]' style={{fontSize:'14px'}}>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bathroom'}>Bathroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/kitchen'}>Kitchen Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Sittingroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Adu Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Bedroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Backyard Remodeling</Link></li>

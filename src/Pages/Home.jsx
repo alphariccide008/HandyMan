@@ -371,6 +371,7 @@ export default function Home(){
                     {/* Image Grid with Overlay */}
                     <div className="md:flex">
                         <div className="flex-col p-1 md:w-1/2 relative group">
+                        
                         <motion.img
                             initial={{ opacity: 0, scale: 0 }}
                             whileInView={{ opacity: 1, scale: 1 }}
@@ -384,10 +385,12 @@ export default function Home(){
                             style={{ height: '200px', width: '100%', borderRadius: '10px' }}
                             className="group-hover:opacity-50"
                         />
+                        
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                        <Link to={'/bathroom'}><div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
                             <p className="text-white text-lg">Bathroom</p>
                         </div>
+                        </Link>
                         </div>
 
                         <div className="flex-col p-1 md:w-1/2 relative group">
@@ -405,9 +408,11 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
-                            <p className="text-white text-lg">Backyard</p>
-                        </div>
+                            <Link to={''}>
+                                <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                                <p className="text-white text-lg">Backyard</p>
+                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -427,9 +432,11 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
-                            <p className="text-white text-lg">Bedroom</p>
-                        </div>
+                       <Link to={'/bedroom'}>
+                            <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                                    <p className="text-white text-lg">Bedroom</p>
+                                </div>
+                       </Link>
                         </div>
 
                         <div className="flex-col p-1 md:w-1/2 relative group">
@@ -447,9 +454,11 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
-                            <p className="text-white text-lg" >ADU</p>
-                        </div>
+                        <Link to={''}>
+                            <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
+                                <p className="text-white text-lg" >ADU</p>
+                            </div>
+                        </Link>
                         </div>
                     </div>
 
@@ -469,9 +478,11 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
+                        <Link to={'/kitchen'}>
                         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
                             <p className="text-white text-lg">Kitchen</p>
                         </div>
+                        </Link>
                         </div>
 
                         <div className="flex-col p-1 md:w-1/2 relative group">
@@ -489,9 +500,12 @@ export default function Home(){
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
+                        <Link to={''}>
+                        
                         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
                             <p className="text-white text-lg">Roofing</p>
                         </div>
+                        </Link>
                         </div>
                     </div>
                     </div>

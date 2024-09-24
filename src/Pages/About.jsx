@@ -1,6 +1,7 @@
 import Banner from '../assets/images/about.jpg';
 import BannerImg from '../assets/images/livingroom2.jpg'
 import {Link} from 'react-router-dom'
+import { FaArrowDown} from 'react-icons/fa'
 
 import {FaStar,
     FaFacebook, 
@@ -338,6 +339,67 @@ const About = () => {
                     
                    
                 </div>
+            </div>
+        </section>
+        
+
+        {/* Frequently asked questions section */}
+        <section className=' text-black ' style={{fontFamily: 'Poppins, sans-serif'}}>
+            <div className=' text-center py-16 lg:py-30 lg:px-[25%] px-[10%]'>
+            <h1 className='font-bold md:text-6xl text-2xl text-center mb-5'>FREQUENTLY ASKED QUESTIONS</h1>
+                
+                <p className="py-4" style={{fontSize:'16px'}}>Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context</p>
+
+                <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
+                    <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
+                        <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
+                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                      </div> 
+                    </summary>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                </details>
+                <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
+                    <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
+                        <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
+                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                      </div> 
+                    </summary>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                </details>
+                <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
+                    <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
+                        <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
+                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                      </div> 
+                    </summary>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                </details>
+                <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
+                    <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
+                        <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
+                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                      </div> 
+                    </summary>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                </details>
+                <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
+                    <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
+                        <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
+                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                      </div> 
+                    </summary>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                </details>
+                <details className="mb-3" style={{BorderRadiusTopright:'10px', }}>
+                    <summary className='bg-cyan-500 text-white p-5' style={{borderTopRightRadius:'10px', borderTopLeftRadius:'10px'}}> <div className="flex">
+                        <div className="flex-col mx-2 lg:w-1/5 " style={{paddingTop:'4px'}}><FaArrowDown/></div>
+                        <div className="flex-col lg:w-1/2  text-center ">What is cryptoFinance Investment ?</div>
+                      </div> 
+                    </summary>
+                    <p className='bg-cyan-400 lg:px-36 p-2' style={{color:'#e7e6e6',fontSize:'15px', borderBottomLeftRadius:'10px', borderBottomRightRadius:'10px'}}>Finance Capital Investment is an investment company which deals in trading and mining crypto-currency.</p>
+                </details>
+                
+                
             </div>
         </section>
 

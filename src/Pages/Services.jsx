@@ -31,7 +31,9 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10  ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>RESTROOM RE-VAMP</h1>
+                        '>BATHROOM REMODELLING</h1>
+                        <p className='lg:px-10 text-center py-5' style={{fontFamily: 'Poppins, sans-serif'}}>All-Handyman   offers expert bathroom remodeling solutions designed to elevate both the functionality and aesthetics of your space. Whether you're dreaming of a spa-like retreat, upgrading outdated fixtures, or maximizing storage, our skilled professionals can bring your ideas to life. We focus on delivering quality craftsmanship while providing fair pricing and flexible financing options to fit any budget. Trust Handyman to turn your bathroom into a space you’ll love for years to come!
+</p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
                     </div>
@@ -67,7 +69,10 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10 pt-28 ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>KITCHEN RE-VAMP</h1>
+                        '>KITCHEN REMODELLING</h1>
+                        <p className='lg:px-10 text-center py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                            At All-Handyman, we specialize in transforming kitchens into beautiful, efficient, and functional spaces that suit your lifestyle. Whether you're looking to modernize your kitchen with new cabinets, countertops, or appliances, or you need a full redesign, our experienced team delivers exceptional craftsmanship. With our commitment to fair pricing and flexible financing, your dream kitchen is within reach. Let Handyman create a kitchen that’s perfect for cooking, entertaining, and enjoying every day!
+                        </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
                     </div>
@@ -106,7 +111,10 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10  ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>BEDROOM RE-VAMP</h1>
+                        '>BEDROOM REMODELLING</h1>
+                        <p className='lg:px-10 text-center py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                            At All-Handyman, we specialize in creating beautiful, functional bedroom spaces tailored to your personal style and needs. Whether you're looking to modernize your bedroom with updated fixtures, add storage, or create a cozy retreat, our skilled team offers a range of services to bring your vision to life. With fair pricing, flexible financing options, and attention to detail, we ensure your bedroom remodel is stress-free and meets your expectations. Let Handyman help you create the bedroom of your dreams!
+                        </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
                     </div>
@@ -142,7 +150,10 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10 pt-28 ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>LVIVING-ROOM RE-VAMP</h1>
+                        '>SITTING-ROOM REMODELLING</h1>
+                        <p className='lg:px-10 text-center py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                            All-Handyman is here to help you transform your sitting room into a stylish, comfortable space that fits your lifestyle. Whether you’re looking to create a modern, cozy environment or maximize space with clever design solutions, our skilled team is ready to bring your vision to life. With our focus on quality, fair pricing, and flexible financing options, we ensure your sitting room remodel is seamless and stress-free. Trust Handyman to make your
+                        </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
                     </div>
