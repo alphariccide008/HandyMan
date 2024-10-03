@@ -111,7 +111,8 @@ export default function Home(){
                               delay: 0.8,
                             }}
                             
-                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Work with us to make imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space! 
+
                             
                             </motion.h5>
                            <div className='md:hidden'>
@@ -244,7 +245,8 @@ export default function Home(){
                               delay: 0.8,
                             }}
                             
-                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home. Making imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            className='mt-10 mb-6 pr-10 text-color2  md:hidden ' style={{ fontSize:'14px',fontFamily: 'Poppins, sans-serif'}}>Work with us to make imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space! 
+
                             
                             </motion.h5>
                            <div className='md:hidden pr-[50%]'>

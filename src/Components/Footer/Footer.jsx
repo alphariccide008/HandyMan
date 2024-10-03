@@ -24,10 +24,10 @@ const Footer = () => {
             <div className="flex-col md:w-1/2  pt-[30px] ">
             <div className='flex mb-4 items-center justify-center'>
               <img src={Logo} alt="" style={{height:'70px', width:'20%'}} />
-              <h4 className='text-white font-bold mt-9'>ALL-HANDYMAN</h4>
+              <h4 className='text-white font-bold mt-9'>ALL A HANDYMAN</h4>
               </div>
                
-              <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
+              <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All a Handyman, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
               <div className='flex justify-center text-white my-3 text-2xl '>
                 <FaFacebook className='mx-2 hover:text-blue-400'/>
                 <FaInstagram className='mx-2  hover:text-blue-400'/>
@@ -95,7 +95,7 @@ const Footer = () => {
         <div className="flex-col md:hidden md:w-1/2  py-[30px] text-center mt-10">
               <div className='flex mb-4 items-center justify-center'>
               <img src={Logo} alt="" style={{height:'70px', width:'20%'}} />
-              <h4 className='text-white mt-6'>ALL REMODELLING</h4>
+              <h4 className='text-white mt-6'>ALL A HANDYMAN</h4>
               </div>
                
               <p className='py-8 px-[20px]  ' style={{fontSize:'12px'}}>Welcome to All Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
@@ -112,7 +112,7 @@ const Footer = () => {
        
         <div className='relative text-center md:flex-row py-10 md:mx-[30px] mt-2'>
               
-              <h6 className='clr' style={{fontSize:'15px'}}>&copy;2024 All-Remodelling. All Rights Reserved</h6>
+              <h6 className='clr' style={{fontSize:'15px'}}>&copy;2024 All A Handyman. All Rights Reserved</h6>
         </div>
       </div>
     </>
