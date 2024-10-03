@@ -303,10 +303,11 @@ export default function Home(){
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
                             <p className=' mt-5' style={{color:'#333333'}}>
-                                At All-handyMan, we blend creativity and functionality to transform spaces into stunning environments. Our team of passionate interior designers is dedicated to bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.
+                                At All A Handyman, we blend creativity and functionality to transform spaces into stunning environments. Our team is passionate and dedicated in bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.
                             </p>
                             <p className=' pt-3 mb-10' style={{color:'#333333'}}>
-                                We specialize in comprehensive home remodeling that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail. 
+                                We specialize in comprehensive home renovations that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail.
+
                             </p>
                         </div>
                         
@@ -357,9 +358,10 @@ export default function Home(){
                     <div className="flex-col md:w-1/2 md:py-10 mt-5 text-color lg:py-20 lg:px-32 bg-slate-500 mb-5 py-10 px-10" style={{ borderRadius: '10px' }}>
                         <h1 className='md:text-5xl font-bold lg:mb-10 mb-5  text-3xl'>Why Choose Us ?</h1>
                         <div style={{ fontSize:'16px', fontFamily: 'Poppins, sans-serif'}} className='tex'>
-                            <p>Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space..</p>
+                            <p>
+                                When it comes to renovating your home, choosing the right contractor is crucial. All A Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise. </p>
                             <p className='pt-3'>
-                            Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
+                                Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
                             </p>
                             {/* <p>
                             At All Handyman, we believe in transparency and collaboration, offering competitive pricing without compromising on quality. Our dedication to personalized service means we work closely with you throughout the entire process, ensuring your vision is realized on time and within budget. Trust us to deliver exceptional results that make your home truly stand out.

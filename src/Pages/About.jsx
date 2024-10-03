@@ -90,7 +90,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className='lg:mt-[46%]  md:mt-[43%] mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All-Remodelling, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
+                        className='lg:mt-[46%]  md:mt-[43%] mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. 
                         </motion.h6>
 
                         <motion.h6
@@ -102,7 +102,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className="mt-3 " style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>At All-Remodelling, we believe that great design goes beyond aesthetics—it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
+                        className="mt-3 " style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>At All A Handyman, we believe that great design goes beyond aesthetics-it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
                         </motion.h6>
                         
                         <motion.div
@@ -176,7 +176,7 @@ const About = () => {
                            }}
                         className="flex-col px-7">
                         <p className='text-sm' style={{fontSize : "16px", fontFamily: 'Poppins, sans-serif'}}>
-                        We're on a mission to change the way the housing market works. Rather than offering one service or another, we want to combine as many and make our clients' lives easy and carefree. Our goal is to match our clients with the perfect properties that fit their tastes, needs, and budgets.
+                        We want to live in a world where people can design homes that match their needs. That's why we take a lot of time and care in getting to know our clients from the moment they reach out to us and ask for our help.
                         </p>
                         </motion.div>
                     </motion.div>
@@ -216,7 +216,7 @@ const About = () => {
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
                             <p className=' mt-5' style={{color:'#333333'}}>
-                                At All-Handyman, we believe that exceptional design should seamlessly blend aesthetics, functionality, and sustainability. Our approach is rooted in a profound understanding of our clients’ needs and the unique context of each project.
+                                At All A Handyman, we believe that exceptional design should seamlessly blend aesthetics, functionality, and sustainability. Our approach is rooted in a profound understanding of our clients’ needs and the unique context of each project.
                             </p>
                             <p className=' pt-3 mb-10' style={{color:'#333333'}}>
                             We collaborate closely with our clients throughout the entire design process, ensuring that their vision is brought to life in a way that is both beautiful and practical. 
