@@ -36,7 +36,7 @@ export default function Home(){
                               }}
                             
 
-                            className='pb-2 md:img-shadow2 lg:text-start md:text-center text-color' style={{fontSize:'15px',color:''}}>LET US RE-MODEL YOUR HOME </motion.h1>
+                            className='pb-2 md:img-shadow2 lg:text-start md:text-center text-color' style={{fontSize:'15px',color:''}}>RENOVATE YOUR HOME WITH US</motion.h1>
                             <motion.h3 
                             
                             
@@ -49,7 +49,7 @@ export default function Home(){
                               delay: 0.6,
                             }}
 
-                            className='  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold text-color2 lg:text-start md:text-center'>BUILDING YOUR VISION RECREATING YOUR IMAGINATIONS</motion.h3>
+                            className='  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold text-color2 lg:text-start md:text-center'>BUILDING YOUR VISION RECREATING YOUR IMAGINATION</motion.h3>
 
 
                             
@@ -66,8 +66,8 @@ export default function Home(){
                               delay: 0.8,
                             }}
 
-                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 ' style={{fontFamily: 'Poppins, sans-serif'}}>Let us re-model your home
-                            Making imagination a reality Create that dream space you have always wanted. Our team will work with you to achieve your perfect space. Working with you to make your fantasy a reality. 
+                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 ' style={{fontFamily: 'Poppins, sans-serif'}}>RENOVATE YOUR HOME WITH US BUILDING YOUR VISION RECREATING YOUR IMAGINATION 
+                            Work
                             
                             </motion.h5>
                             <div className='hidden md:flex mt-10'>
