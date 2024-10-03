@@ -64,7 +64,7 @@ function Contact() {
                     <h1 className="font-bold">CONTACTS</h1>
                     <p style={{ fontSize: '15px',fontFamily: 'Poppins, sans-serif' }}>(240)871-8881</p>
                     
-                    <p style={{ fontSize: '15px',fontFamily: 'Poppins, sans-serif' }}>iallahandyman50@gmail.com</p>
+                    <p style={{ fontSize: '15px',fontFamily: 'Poppins, sans-serif' }}>AllaHandyman50@gmail.com</p>
                   </div>
                   <div className="md:w-1/2 flex-col">
                     <h1 className="font-bold">ADDRESS</h1>
