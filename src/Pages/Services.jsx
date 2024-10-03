@@ -286,7 +286,7 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10  ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>ROOFING REMODELLING</h1>
+                        '>ROOFING </h1>
                         <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
                         All-Handyman offers top-quality roofing services, providing durable and reliable solutions for all your roofing needs. Whether you're installing a new roof, repairing leaks, or upgrading to more energy-efficient materials, our experienced team ensures excellent craftsmanship and long-lasting results. We prioritize safety, affordability, and customer satisfaction, offering fair pricing and flexible financing options. Trust All-Handyman to protect your home with a roof that stands the test of time.
 

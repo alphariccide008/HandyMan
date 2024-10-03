@@ -108,7 +108,7 @@ function Contact() {
               <div className="md:w-1/2 img-shadow2 mt-14 flex-col">
                 <div className="pb-4" style={{ fontSize: '20px' }}>
                   <h1 className="pb-5" style={{ fontSize: '50px' }}>SEND A MESSAGE</h1>
-                  <p style={{fontFamily: 'Poppins, sans-serif'}}>If you're interested in hearing more about the way we work, have a business proposal, or are interested in making a purchase, we'd love to hear from you.</p>
+                  <p style={{fontFamily: 'Poppins, sans-serif'}}>Are you interested in hearing more about the way we work, have a business proposal, or are interested in working with us? We’d love to hear from you!</p>
                 </div>
               </div>
               <div className="md:w-1/2 mt-5 md:space-y-1 md:mx-[10%] md:flex flex-col">

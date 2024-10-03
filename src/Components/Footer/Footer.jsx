@@ -70,7 +70,7 @@ const Footer = () => {
               </div>
               <div className='flex justify-center clr my-3  'style={{fontSize:'12px'}}>
                 <FaEnvelope className='mt-1 mx-1 hover:text-blue-400 '/>
-                :  allahandyman50@gmail.com
+                :  AllaHandyman50@gmail.com
                 
               </div>
               <div className='flex justify-center clr my-3 'style={{fontSize:'12px'}}>
