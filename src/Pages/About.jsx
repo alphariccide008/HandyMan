@@ -1,5 +1,5 @@
-import Banner from '../assets/images/about.jpg';
-import BannerImg from '../assets/images/livingroom2.jpg'
+import Banner from '../assets/images/constructionworker9.jpg';
+import BannerImg from '../assets/images/construction5.jpg'
 import { FaArrowDown} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
@@ -176,7 +176,7 @@ const About = () => {
                            }}
                         className="flex-col px-7">
                         <p className='text-sm' style={{fontSize : "16px", fontFamily: 'Poppins, sans-serif'}}>
-                        We want to live in a world where people can design homes that match their needs. That's why we take a lot of time and care in getting to know our clients from the moment they reach out to us and ask for our help.
+                        We're on a mission to change the way the housing market works. Rather than offering one service or another, we want to combine as many and make our clients' lives easy and carefree. Our goal is to match our clients with the perfect renovations that fit their tastes, needs, and budgets.
                         </p>
                         </motion.div>
                     </motion.div>
