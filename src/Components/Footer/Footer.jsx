@@ -27,7 +27,7 @@ const Footer = () => {
               <h4 className='text-white font-bold mt-9'>ALL A HANDYMAN</h4>
               </div>
                
-              <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All a Handyman, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
+              <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service construction and renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
               <div className='flex justify-center text-white my-3 text-2xl '>
                 <FaFacebook className='mx-2 hover:text-blue-400'/>
                 <FaInstagram className='mx-2  hover:text-blue-400'/>
@@ -98,8 +98,7 @@ const Footer = () => {
               <h4 className='text-white mt-6'>ALL A HANDYMAN</h4>
               </div>
                
-              <p className='py-8 px-[20px]  ' style={{fontSize:'12px'}}>Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service interior design company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
-
+              <p className='py-8 px-[20px]  ' style={{fontSize:'12px'}}>Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service construction and renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
 </p>
               <div className='flex justify-center text-white my-3 text-2xl '>
                 <FaFacebook className='mx-2 hover:text-cyan-500'/>

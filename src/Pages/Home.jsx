@@ -36,7 +36,7 @@ export default function Home(){
                               }}
                             
 
-                            className='pb-2 md:img-shadow2 lg:text-start md:text-center text-color' style={{fontSize:'15px',color:''}}>RENOVATE YOUR HOME WITH US</motion.h1>
+                            className='pb-2 md:img-shadow2 lg:text-start md:text-center text-color' style={{fontSize:'20px',color:''}}>RENOVATE YOUR HOME WITH US</motion.h1>
                             <motion.h3 
                             
                             
@@ -49,7 +49,7 @@ export default function Home(){
                               delay: 0.6,
                             }}
 
-                            className='  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold text-color2 lg:text-start md:text-center'>BUILDING YOUR VISION RECREATING YOUR IMAGINATION</motion.h3>
+                            className='  md:flex mb-7  lg:mr-[-300px] text-4xl font-bold text-color2 lg:text-start md:text-center'>BUILDING YOUR VISION <br /> RECREATING YOUR IMAGINATION</motion.h3>
 
 
                             
@@ -66,8 +66,9 @@ export default function Home(){
                               delay: 0.8,
                             }}
 
-                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 ' style={{fontFamily: 'Poppins, sans-serif'}}>RENOVATE YOUR HOME WITH US BUILDING YOUR VISION RECREATING YOUR IMAGINATION 
-                            Work
+                            className='mt-32 md:mt-10 lg:mt-10 md:text-center lg:text-start pr-10 hidden md:flex-col md:flex text-color2 ' style={{fontFamily: 'Poppins, sans-serif'}}>
+                            Work with us to make imagination a reality. Create that dream space you have always wanted. Our team will work with you to achieve your perfect space! 
+
                             
                             </motion.h5>
                             <div className='hidden md:flex mt-10'>
@@ -290,11 +291,13 @@ export default function Home(){
             <section className=' justify-center'>
                 <div className='lg:mx-[18%] '>
                 <div  className="container relative text-center text-black   px-5 md:py-20  ">
-                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>OUR LOVE FOR INTERIOR DESIGN</h1>
-                    <p className='lg:flex md:hidden hidden text-center lg:px-[30%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_________________</p>
+                    <h1 className='font-bold  md:text-6xl text-2xl text-center mb-5'>OUR PASSION FOR CONSTRUCTION AND RENOVATION</h1>
+
+                    
+                    <p className='lg:flex md:hidden hidden text-center lg:px-[35%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_________________</p>
                     
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Handyman and Construction: Transforming spaces with exceptional craftsmanship.</h1>
                     
                 </div>
                 
@@ -302,7 +305,7 @@ export default function Home(){
                 <div className="md:flex mx-8 mt-2 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
                     <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px lg:pt-4 lg:px-[100px]">
-                        <h1 className='font-bold md:text-sm mb-4 lg:mt-[10%] text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in interior design and a broad knowledge of the latest trends and techniques.</h1>
+                        <h1 className='font-bold md:text-sm mb-4 lg:mt-[10%] text-2xl lg:text-2xl' style={{color:'#666666'}}>We have extensive experience in construction and renovation, with broad knowledge of the latest trends and techniques.</h1>
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
                             <p className=' mt-5' style={{color:'#333333'}}>
@@ -564,7 +567,7 @@ export default function Home(){
                     <p className='lg:flex md:hidden hidden text-center lg:px-[33%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>SERVICES</span>_________________</p>
                     
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >SERVICES</span>  _________________</p>
-                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We are a passionate team dedicated to creating stunning interiors.</h1>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>We have extensive experience in construction and renovation, with broad knowledge of the latest trends and techniques.</h1>
 
                     <div className='px-[32%] mt-5'>
                     <Link to={'services'} 
@@ -671,7 +674,7 @@ export default function Home(){
                     <p className='lg:flex md:hidden hidden text-center lg:px-[33%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>PASSION</span>_________________</p>
                     
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >PASSION</span>  _________________</p>
-                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Excited to meet you in person! Come visit us at our office to discuss your new design. We’re looking forward to connecting face-to-face. See you soon!</h1>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Excited to meet you in person! Come visit us at our office to discuss your new project. We're looking forward to connecting face-to-face. See you soon!</h1>
 
                     <div className='px-[32%] mt-5'>
                     <Link to={'services'} 
