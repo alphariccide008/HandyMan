@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './home.css';
 import { motion } from 'framer-motion';
 import FirstImg from '../assets/images/projects.jpeg'
-import BannerImg from '../assets/images/bannerimg.webp'
+import BannerImg from '../assets/images/construction3.jpg'
 import SecondImg from '../assets/images/Aboutus.jpeg'
 import ThridImg from '../assets/images/toilet3.jpg'
 import Roofing from '../assets/images/roofing.webp'
