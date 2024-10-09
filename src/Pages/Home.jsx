@@ -4,6 +4,7 @@ import './home.css';
 import { motion } from 'framer-motion';
 import FirstImg from '../assets/images/projects.jpeg'
 import BannerImg from '../assets/images/construction3.jpg'
+import Living1 from  '../assets/images/livingroom1.jpg';
 import SecondImg from '../assets/images/Aboutus.jpeg'
 import ThridImg from '../assets/images/toilet3.jpg'
 import Roofing from '../assets/images/roofing.webp'
@@ -309,7 +310,7 @@ export default function Home(){
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
                             <p className=' mt-5' style={{color:'#333333'}}>
-                                At All A Handyman, we blend creativity and functionality to transform spaces into stunning environments. Our team is passionate and dedicated in bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.
+                                At All A Handyman and Contractor, we blend creativity and functionality to transform spaces into stunning environments. Our team is passionate and dedicated in bringing your vision to life with personalized, stylish, and innovative solutions. Let us make your dream space a reality.
                             </p>
                             <p className=' pt-3 mb-10' style={{color:'#333333'}}>
                                 We specialize in comprehensive home renovations that combines cutting-edge technology with high-quality craftsmanship. Whether you're looking to reimagine your space with structural changes or enhance it with custom carpentry, our team ensures precision and durability in every detail.
@@ -365,9 +366,9 @@ export default function Home(){
                         <h1 className='md:text-5xl font-bold lg:mb-10 mb-5  text-3xl'>Why Choose Us ?</h1>
                         <div style={{ fontSize:'16px', fontFamily: 'Poppins, sans-serif'}} className='tex'>
                             <p>
-                                When it comes to renovating your home, choosing the right contractor is crucial. All A Handyman stands out as the premier choice for homeowners seeking quality, affordability, and expertise. </p>
+                                When it comes to renovating your home, choosing the right contractor is crucial. All A Handyman and Contractor stands out as the premier choice for homeowners seeking quality, affordability, and expertise. </p>
                             <p className='pt-3'>
-                                Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution. We combine innovative solutions with meticulous craftsmanship, guaranteeing results that enhance both the aesthetics and functionality of your space.
+                                Our commitment to excellence ensures that every project, regardless of size, is completed to the highest standards. With a team of highly skilled professionals, we bring decades of experience and technical expertise to every aspect of your home renovation, from design to execution.
                             </p>
                             {/* <p>
                             At All Handyman, we believe in transparency and collaboration, offering competitive pricing without compromising on quality. Our dedication to personalized service means we work closely with you throughout the entire process, ensuring your vision is realized on time and within budget. Trust us to deliver exceptional results that make your home truly stand out.
@@ -418,7 +419,7 @@ export default function Home(){
                         {/* Overlay */}
                             <Link to={'/backyard'}>
                                 <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
-                                <p className="text-white text-lg">Backyard</p>
+                                <p className="text-white text-lg">Landscaping</p>
                             </div>
                             </Link>
                         </div>
@@ -457,14 +458,14 @@ export default function Home(){
                             damping: 10,
                             delay: 0.8,
                             }}
-                            src={Adu} alt="Interior"
+                            src={Living1} alt="Interior"
                             style={{ height: '200px', width: '100%', borderRadius: '10px' }}
                             className="group-hover:opacity-50"
                         />
                         {/* Overlay */}
                         <Link to={'/adu'}>
                             <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out" style={{borderRadius:'10px'}}>
-                                <p className="text-white text-lg" >ADU</p>
+                                <p className="text-white text-lg" >Living Room</p>
                             </div>
                         </Link>
                         </div>

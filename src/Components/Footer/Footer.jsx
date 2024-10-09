@@ -20,14 +20,14 @@ const Footer = () => {
   return (
     <>
       <div className='footer ' style={{fontFamily: 'Poppins, sans-serif'}}>
-        <div className="relative hidden md:flex clr text-center md:mx-[12%]">
+        <div className="relative hidden md:flex clr text-center md:mx-[10%]">
             <div className="flex-col md:w-1/2  pt-[30px] ">
             <div className='flex mb-4 items-center justify-center'>
               <img src={Logo} alt="" style={{height:'70px', width:'20%'}} />
-              <h4 className='text-white font-bold mt-9'>ALL A HANDYMAN</h4>
+              <h4 className='text-white font-bold mt-9'>ALL A HANDYMAN AND CONTRACTOR</h4>
               </div>
                
-              <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service construction and renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
+              <p className='py-5 px-[28px]' style={{fontSize:'14px'}}>Welcome to All A Handyman and Contractor, where creativity meets craftsmanship. We are a full-service construction and renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. </p>
               <div className='flex justify-center text-white my-3 text-2xl '>
                 <FaFacebook className='mx-2 hover:text-blue-400'/>
                 <FaInstagram className='mx-2  hover:text-blue-400'/>
@@ -52,11 +52,10 @@ const Footer = () => {
               <ul className='py-8 px-[20px]' style={{fontSize:'14px'}}>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bathroom'}>Bathroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/kitchen'}>Kitchen Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Sittingroom Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/adu'}>Adu Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/livingroom'}>Living room Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/bedroom'}>Bedroom Remodeling</Link></li>
                 <li className='pb-3  hover:text-cyan-500'><Link to={'/backyard'}>Backyard Remodeling</Link></li>
-                <li className='pb-3  hover:text-cyan-500'><Link to={'/roofing'}>Roofing Remodeling</Link></li>
+                <li className='pb-3  hover:text-cyan-500'><Link to={'/roofing'}>Roofing</Link></li>
                 
               </ul>
             </div>
@@ -95,10 +94,10 @@ const Footer = () => {
         <div className="flex-col md:hidden md:w-1/2  py-[30px] text-center mt-10">
               <div className='flex mb-4 items-center justify-center'>
               <img src={Logo} alt="" style={{height:'70px', width:'20%'}} />
-              <h4 className='text-white mt-6'>ALL A HANDYMAN</h4>
+              <h4 className='text-white mt-6'>ALL A HANDYMAN AND CONTRACTOR</h4>
               </div>
                
-              <p className='py-8 px-[20px]  ' style={{fontSize:'12px'}}>Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service construction and renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
+              <p className='py-8 px-[20px]  ' style={{fontSize:'12px'}}>Welcome to All A Handyman and Contractor, where creativity meets craftsmanship. We are a full-service construction and renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs.
 </p>
               <div className='flex justify-center text-white my-3 text-2xl '>
                 <FaFacebook className='mx-2 hover:text-cyan-500'/>
@@ -111,7 +110,7 @@ const Footer = () => {
        
         <div className='relative text-center md:flex-row py-10 md:mx-[30px] mt-2'>
               
-              <h6 className='clr' style={{fontSize:'15px'}}>&copy;2024 All A Handyman. All Rights Reserved</h6>
+              <h6 className='clr' style={{fontSize:'15px'}}>&copy;2024 All A Handyman and Contractor. All Rights Reserved</h6>
         </div>
       </div>
     </>

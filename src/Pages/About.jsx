@@ -90,7 +90,8 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className='lg:mt-[46%]  md:mt-[43%] mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All A Handyman, where creativity meets craftsmanship. We are a full-service renovation company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. 
+                        className='lg:mt-[60%]  md:mt-[43%] mt-3' style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}> Welcome to All A Handyman and Contractor, where creativity meets craftsmanship. We are a full-service renovation and contractor 
+                        company dedicated to transforming spaces into beautiful, functional environments that reflect your unique style and needs. 
                         </motion.h6>
 
                         <motion.h6
@@ -102,7 +103,7 @@ const About = () => {
                               damping: 10,
                               delay: 1,
                             }}
-                        className="mt-3 " style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>At All A Handyman, we believe that great design goes beyond aesthetics-it's about creating spaces that inspire, comfort, and enhance your daily life. Our approach is collaborative, working closely with you from concept to completion to ensure every detail aligns with your expectations.
+                        className="mt-3 " style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>At All A Handyman and Contractor, we believe that great design goes beyond aesthetics-it's about creating spaces that inspire, comfort, and enhance your daily life. 
                         </motion.h6>
                         
                         <motion.div
@@ -210,27 +211,19 @@ const About = () => {
                 </div>
                 <div className="md:flex mx-8 mt-2 text-black">
                     <div className="flex-col md:w-1/2 mb-10"><img src={BannerImg} style={{borderRadius:'10px'}} alt="" /></div>
-                    <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px  px-5 lg:pt-12 lg:px-[100px]">
+                    <div className="flex-col md:w-1/2 md:px-[20px] md:pr-10px  px-5 lg:pt-5 lg:px-[100px]">
                         <h1 className='font-bold md:text-sm mb-4  text-2xl lg:text-2xl' style={{color:'#666666'}}>
-                         Our Design Philosphy</h1>
+                         Our Design Philosophy</h1>
                         <hr />
                         <div style={{fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>
-                            <p className=' mt-5' style={{color:'#333333'}}>
-                                At All A Handyman, we believe that exceptional design should seamlessly blend aesthetics, functionality, and sustainability. Our approach is rooted in a profound understanding of our clients’ needs and the unique context of each project.
+                            <p className=' mt-3' style={{color:'#333333'}}>
+                                At All A Handyman and Contractor, we believe that exceptional design should seamlessly blend aesthetics, functionality, and sustainability. Our approach is rooted in a profound understanding of our clients’ needs and the unique context of each project.
                             </p>
                             <p className=' pt-3 mb-10' style={{color:'#333333'}}>
                             We collaborate closely with our clients throughout the entire design process, ensuring that their vision is brought to life in a way that is both beautiful and practical. 
                             </p>
-                            <p className='lg:flex md:hidden hidden' style={{color:'#333333'}}>
-                            By working together from the initial concept through to the final execution, we ensure that every detail aligns with their needs, preferences, and lifestyle. 
-                            </p>
-                            <p className='lg:flex md:hidden hidden'  style={{color:'#333333'}}>
-                            Incorporating environmentally responsible practices is at the core of our philosophy. We carefully select sustainable materials and innovative design solutions that not only reduce the environmental impact but also enhance the long-term performance and sustainability of the space.
-                            </p>
-                            <p className=' pt-3 mb-10 lg:flex md:hidden ' style={{color:'#333333'}}>
-                            Our commitment to excellence drives us to deliver designs that are timeless, innovative, and tailored to enhance the lives of those who inhabit them.
-                            </p>
-                            <div className='pr-[40%] mb-10 md:pr-[70%]'>
+                           
+                            <div className='pr-[40%] mb-10 md:pr-[60%]'>
                        <Link to={'/contact'}
                         class="relative md:my-4 flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-cyan-400 rounded-md group"
                         >

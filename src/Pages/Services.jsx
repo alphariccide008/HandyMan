@@ -41,8 +41,8 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10  ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>BATHROOM REMODELLING</h1>
-                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>All A Handyman   offers expert bathroom remodeling solutions designed to elevate both the functionality and aesthetics of your space. Whether you're dreaming of a spa-like retreat, upgrading outdated fixtures, or maximizing storage, our skilled professionals can bring your ideas to life. We focus on delivering quality craftsmanship while providing fair pricing and flexible financing options to fit any budget. Trust Handyman to turn your bathroom into a space you’ll love for years to come!
+                        '>BATHROOM REMODELING</h1>
+                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>All A Handyman and Contractor   offers expert bathroom remodeling solutions designed to elevate both the functionality and aesthetics of your space. Whether you're dreaming of a spa-like retreat, upgrading outdated fixtures, or maximizing storage, our skilled professionals can bring your ideas to life. We focus on delivering quality craftsmanship while providing fair pricing and flexible financing options to fit any budget. Trust All A Handyman and Contractor to turn your bathroom into a space you’ll love for years to come!
 </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
@@ -79,9 +79,9 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10 pt-28 ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>KITCHEN REMODELLING</h1>
+                        '>KITCHEN REMODELING</h1>
                         <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                        At All A Handyman, we specialize in transforming kitchens into beautiful, efficient, and functional spaces that suit your lifestyle. Whether you're looking to modernize your kitchen with new cabinets, countertops, or appliances, or you need a full renovation, our experienced team delivers exceptional craftsmanship. With our commitment to fair pricing and flexible financing, your dream kitchen is within reach. Let All A Handyman create a kitchen that’s perfect for cooking, entertaining, and enjoying every day
+                        At All A Handyman and Contractor, we specialize in transforming kitchens into beautiful, efficient, and functional spaces that suit your lifestyle. Whether you're looking to modernize your kitchen with new cabinets, countertops, or appliances, or you need a full renovation, our experienced team delivers exceptional craftsmanship. With our commitment to fair pricing and flexible financing, your dream kitchen is within reach. Let All A Handyman and Contractor create a kitchen that’s perfect for cooking, entertaining, and enjoying every day
                         </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
@@ -121,9 +121,9 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10  ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>BEDROOM REMODELLING</h1>
+                        '>BEDROOM REMODELING</h1>
                         <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                            At All A Handyman, we specialize in creating beautiful, functional bedroom spaces tailored to your personal style and needs. Whether you're looking to modernize your bedroom with updated fixtures, add storage, or create a cozy retreat, our skilled team offers a range of services to bring your vision to life. With fair pricing, flexible financing options, and attention to detail, we ensure your bedroom remodel is stress-free and meets your expectations. Let Handyman help you create the bedroom of your dreams!
+                            At All A Handyman and Contractor, we specialize in creating beautiful, functional bedroom spaces tailored to your personal style and needs. Whether you're looking to modernize your bedroom with updated fixtures, add storage, or create a cozy retreat, our skilled team offers a range of services to bring your vision to life. With fair pricing, flexible financing options, and attention to detail, we ensure your bedroom remodel is stress-free and meets your expectations. Let Handyman help you create the bedroom of your dreams!
                         </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
@@ -160,9 +160,9 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10 pt-28 ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>SITTING-ROOM REMODELLING</h1>
+                        '>LIVING ROOM REMODELING</h1>
                         <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                        All A Handyman is here to help you transform your sitting room into a stylish, comfortable space that fits your lifestyle. Whether you're looking to create a modern, cozy environment or maximize space with efficient solutions, our skilled team is ready to bring your vision to life. With our focus on quality, fair pricing, and flexible financing options, we ensure your sitting room remodel is seamless and stress-free. Trust All A Handyman to make your sitting room a space you’ll love for years to come. From planning to completion, we’re committed to delivering exceptional results that exceed your expectations. Trust All A Handyman to make your dream sitting room a reality
+                        All A Handyman and Contractor is here to help you transform your living room into a stylish, comfortable space that fits your lifestyle. Whether you're looking to create a modern, cozy environment or maximize space with efficient solutions, our skilled team is ready to bring your vision to life. With our focus on quality, fair pricing, and flexible financing options, we ensure your living room remodel is seamless and stress-free. Trust All A Handyman and Contractor to make your living room a space you’ll love for years to come. From planning to completion, we’re committed to delivering exceptional results that exceed your expectations. Trust All A Handyman and Contractor to make your dream Living room a reality
                         </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
@@ -195,57 +195,16 @@ const services = () => {
 
                </div>
       </section>
-      {/* Adu section */}
-      <section className=' text-black    '>
-               <div className='lg:mx-[20%]'>
-               <div className="container relative md:flex  px-10 py-10  ">
-                    <div className="text-center">
-                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>ADU REMODELLING</h1>
-                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                        All A Handyman offers comprehensive apartment unit construction services, ensuring every project is built with precision, efficiency, and high-quality craftsmanship. Whether you're constructing a new apartment building or renovating existing units, our team delivers tailored solutions to meet your specific needs and budget requirements. With a commitment to fair pricing and flexible financing options, we make apartment construction stress-free and seamless. Trust All A Handyman to bring your vision to life with attention to detail and superior results.
-
-
-                        </p>
-                        <p className='text-center mb-5 md:hidden'>______________________________</p>
-                        
-                    </div>
-                   
-                </div>
-                
-                <div className='relative  '>
-                    <div className="md:flex container px-5 gap-3 pb-10">
-                    <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
-                            <img src={Adu1} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
-                            <img src={Adu2} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
-                        </div>
-                        <div className="md:w-[70%] img-shadow2 flex-col">
-                            <img src={Adu3} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div className="md:flex container px-5 gap-3 pb-10">
-                        
-                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-start lg:pr-[3%] md:pr[5%]">
-                            <Link to={'/adu'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
-                        </div>
-                    </div>
-
-               </div>
-            </section>
-
-
+     
         {/* backyard section */}
         <section className='projects text-black    '>
                <div className='lg:mx-[20%]'>
                <div className="container relative md:flex  px-10 py-10 pt-28 ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>BACKYARD REMODELLING</h1>
+                        '>LANDSCAPING</h1>
                         <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                        At All A Handyman, we specialize in turning ordinary backyards into stunning outdoor retreats. Whether you're looking to add a new patio, deck, landscaping features, or a custom entertainment area, our team is ready to bring your backyard vision to life. With a focus on quality craftsmanship, attention to detail, and practical solutions, we ensure a backyard remodel that suits your lifestyle and budget. Enjoy fair pricing, flexible financing options, and a seamless remodeling experience with All-Handyman.
+                        At All A Handyman and Contractor, we specialize in turning ordinary backyards into stunning outdoor retreats. Whether you're looking to add a new patio, deck, landscaping features, or a custom entertainment area, our team is ready to bring your backyard vision to life. With a focus on quality craftsmanship, attention to detail, and practical solutions, we ensure a backyard remodel that suits your lifestyle and budget. Enjoy fair pricing, flexible financing options, and a seamless remodeling experience with All-Handyman.
                         </p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
@@ -288,7 +247,7 @@ const services = () => {
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
                         '>ROOFING </h1>
                         <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                        All A Handyman offers top-quality roofing services, providing durable and reliable solutions for all your roofing needs. Whether you're installing a new roof, repairing leaks, or upgrading to more energy-efficient materials, our experienced team ensures excellent craftsmanship and long-lasting results. We prioritize safety, affordability, and customer satisfaction, offering fair pricing and flexible financing options. Trust All A Handyman to protect your home with a roof that stands the test of time.
+                        All A Handyman and Contractor offers top-quality roofing services, providing durable and reliable solutions for all your roofing needs. Whether you're installing a new roof, repairing leaks, or upgrading to more energy-efficient materials, our experienced team ensures excellent craftsmanship and long-lasting results. We prioritize safety, affordability, and customer satisfaction, offering fair pricing and flexible financing options. Trust All A Handyman and Contractor to protect your home with a roof that stands the test of time.
 
 
 

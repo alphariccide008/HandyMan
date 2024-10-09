@@ -39,7 +39,7 @@ function Contact() {
   return (
     <>
       <section className="hero text-black pt-10 md:pt-28">
-        <div className="lg:mx-[15%]">
+        <div className="lg:mx-[9%]">
           <div className="relative">
             <div className="md:flex container px-5 gap-3 pb-20">
               <div className="md:w-1/2 img-shadow2 mt-28 flex-col">
@@ -56,7 +56,7 @@ function Contact() {
                     className="hidden md:absolute md:flex mb-7 lg:mr-[-300px] text-5xl"
                     style={{ fontSize: '90px' }}
                   >
-                    CONTACT US
+                    CONTACT U <span className='text-white'>S</span>
                   </h3>
                 </div>
                 <div className="md:flex my-20 md:mt-52 lg:mt-52">
