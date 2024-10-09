@@ -41,7 +41,7 @@ export default function Nav(){
                 {/*............logo..........*/}
                <Link to={'/'} className="logo flex">
                 <img src={Logo} alt="" style={{ width : '90%'}} />
-                <h1 className='font-bold mt-[2%]' style={{fontSize:'9px'}}>ALL A HANDYMAN & CONSTRUCTION <br /></h1>
+                <h1 className='font-bold mt-[2%]' style={{fontSize:'9px'}}>ALL A HANDYMAN & CONSTRUCTOR <br /></h1>
                </Link> 
 
                {/*....Nav-Links.......*/}

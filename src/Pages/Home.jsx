@@ -298,7 +298,7 @@ export default function Home(){
                     <p className='lg:flex md:hidden hidden text-center lg:px-[35%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_________________</p>
                     
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Handyman and Construction: Transforming spaces with exceptional craftsmanship.</h1>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Handyman and Constractor: Transforming spaces with exceptional craftsmanship.</h1>
                     
                 </div>
                 
