@@ -298,7 +298,7 @@ export default function Home(){
                     <p className='lg:flex md:hidden hidden text-center lg:px-[35%]  ' style={{color:'#666666'}}>___________________ <span className='mt-2 text-sm' style={{color:'#666666'}}>ABOUT US</span>_________________</p>
                     
                     <p className='md:hidden py-4' style={{color:'#666666'}}>_______________  <span className='mt-5 text-sm' >ABOUT US</span>  _________________</p>
-                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Handyman and Constractor: Transforming spaces with exceptional craftsmanship.</h1>
+                    <h1 className='text-sm text-center md:py-3' style={{color:'#666666', fontSize:'16px',fontFamily: 'Poppins, sans-serif'}}>Handyman and Contractor: Transforming spaces with exceptional craftsmanship.</h1>
                     
                 </div>
                 
@@ -764,7 +764,7 @@ export default function Home(){
                                         <h1 className='font-bold mb-4' style={{fontSize:'20px'}}>Sarah Mitchell</h1>
                                         <p style={{fontSize:'14px'}}>
                                         
-                                        "I cannot recommend All-handyman enough! They recently completed a full kitchen renovation for me, and the results were beyond my expectations. From the initial consultation to the final touches, their team was professional, attentive, and truly dedicated to making my vision a reality. They offered creative solutions to maximize space and functionality."
+                                        "I cannot recommend All A handyman and Contractor enough! They recently completed a full kitchen renovation for me, and the results were beyond my expectations. From the initial consultation to the final touches, their team was professional, attentive, and truly dedicated to making my vision a reality. They offered creative solutions to maximize space and functionality."
 
 
                                         </p>
@@ -790,7 +790,7 @@ export default function Home(){
                                         <h1 className='font-bold mb-4' style={{fontSize:'20px'}}>Noah Davis</h1>
                                         <p style={{fontSize:'14px'}}>
                                         
-                                        "I am writing to recommend all remodeling. I recently had them remodel my bathroom and I am absolutely thrilled with the results. all remodeling and his team were professional, efficient, and affordable. They listened to my needs and came up with a plan that was both functional and stylish. They worked hard to meet my deadlines and kept me updated."
+                                        "I am writing to recommend All A Handyman and Contractor. I recently had them remodel my bathroom and I am absolutely thrilled with the results. All A Handyman and COntractor and his team were professional, efficient, and affordable. They listened to my needs and came up with a plan that was both functional and stylish. They worked hard to meet my deadlines and kept me updated."
                                         </p>
                                     </div>
                             </motion.div>
