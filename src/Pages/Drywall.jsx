@@ -1,13 +1,14 @@
 import './LivingRoom.css';
 import { Link } from 'react-router-dom';
-import Backyard1 from  '../assets/images/backyard1.jpeg';
-import Backyard2 from  '../assets/images/backyard2.jpeg';
-import Backyard3 from  '../assets/images/backyard3.jpg';
-import Backyard4 from  '../assets/images/backyard4.jpg';
-import Backyard5 from  '../assets/images/backyard5.jpg';
-import Backyard6 from  '../assets/images/backyard6.jpg';
-import Backyard7 from  '../assets/images/backyard7.jpg';
-import Backyard8 from  '../assets/images/backyard8.jpg';
+import Drywall1 from '../assets/images/drywall1.jpg'
+import Drywall2 from '../assets/images/drywall2.jpg'
+import Drywall3 from '../assets/images/drywall3.jpg'
+import Drywall4 from '../assets/images/drywall4.jpg'
+import Drywall5 from '../assets/images/drywall5.jpg'
+import Drywall6 from '../assets/images/drywall6.jpg'
+import Drywall7 from '../assets/images/drywall7.jpg'
+import Drywall8 from '../assets/images/drywall8.jpg'
+import Drywall9 from '../assets/images/drywall9.jpg'
 
 
 
@@ -29,34 +30,34 @@ const Bathroom = () => {
         {/* section Gallery Images */}
         <section className='relative text-black'>
            <div className='mx-[5%] py-20'>
-                <h1 className='text-center font-bold text-2xl'>BACKYARD & PATIO GALLERY</h1>
+                <h1 className='text-center font-bold text-2xl'>DRY-WALL GALLERY</h1>
                 <div className="hidden md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Backyard1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
+                        <img src={Drywall1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Backyard2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'90%'}}/> 
+                        <img src={Drywall2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height: '90%'}}/> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Backyard4} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
+                    <img src={Drywall3} alt="bathroom" width={'100%'}  style={{borderRadius:'7px',height:'89%'}} /> 
                     </div>
                 </div>
                 <div className=" md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Backyard3} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                        <img src={Drywall4} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Backyard5} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Drywall9} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Backyard6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Drywall8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Backyard7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Drywall7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Backyard8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    <img src={Drywall8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                 </div>
                 <div className='pr-[50%] mb-10 lg:pr-[90%] md:pr-[70%]'>

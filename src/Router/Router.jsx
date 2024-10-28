@@ -14,6 +14,12 @@ import LivingRoom from '../Pages/LivingRoom';
 import Roofing from '../Pages/Roofing';
 import Backyard from '../Pages/Backyard';
 import Adu from '../Pages/Adu';
+import Basement from '../Pages/Basement';
+import Painting from '../Pages/Painting';
+import Drywall from '../Pages/Drywall';
+import Electrical from '../Pages/Electrical';
+import Plumbing from '../Pages/Plumbing';
+import Flooring from '../Pages/Flooring';
 
 
 //Import Components................
@@ -37,6 +43,13 @@ export default function Router(){
             <Route path='/livingroom' element={<LivingRoom/>} />
             <Route path='/backyard' element={<Backyard/>} />
             <Route path='/roofing' element={<Roofing/>} />
+            <Route path='/basement' element={<Basement/>} />
+            <Route path='/painting' element={<Painting/>} />
+            <Route path='/drywall' element={<Drywall/>} />
+            <Route path='/electrical' element={<Electrical/>} />
+            <Route path='/plumbing' element={<Plumbing/>} />
+            <Route path='/flooring' element={<Flooring/>} />
+            
         </Routes>
        <Footer/>
         </BrowserRouter>

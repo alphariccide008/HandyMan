@@ -20,9 +20,25 @@ import Roofing3 from  '../assets/images/roofing3.jpg';
 import Backyard1 from  '../assets/images/backyard1.jpeg';
 import Backyard2 from  '../assets/images/backyard2.jpeg';
 import Backyard3 from  '../assets/images/backyard3.jpg';
-import Adu1 from  '../assets/images/adu1.jpg';
-import Adu2 from  '../assets/images/adu2.jpg';
-import Adu3 from  '../assets/images/adu3.jpg';
+import Basement1 from  '../assets/images/basement1.jpg';
+import Basement10 from  '../assets/images/basement10.jpg';
+import Basement6 from  '../assets/images/basement6.jpg';
+import Drywall1 from '../assets/images/drywall1.jpg'
+import Drywall2 from '../assets/images/drywall2.jpg'
+import Drywall3 from '../assets/images/drywall3.jpg'
+import Electrical2 from '../assets/images/electricals2.jpg'
+import Electrical3 from '../assets/images/electricals3.jpg'
+import Electrical4 from '../assets/images/electricals4.jpg'
+import Plumbing1 from '../assets/images/plum4.jpg'
+import Plumbing2 from '../assets/images/plum2.jpg'
+import Plumbing3 from '../assets/images/plum3.jpg'
+import Painting1 from '../assets/images/painting1.jpg'
+import Painting2 from '../assets/images/painting2.jpg'
+import Painting3 from '../assets/images/painting3.jpg'
+import Flooring1 from '../assets/images/flooring1.jpg'
+import Flooring2 from '../assets/images/flooring2.jpg'
+import Flooring3 from '../assets/images/flooring3.jpg'
+
 
 
 
@@ -195,6 +211,66 @@ const services = () => {
 
                </div>
       </section>
+
+      {/* Basement section */}
+
+      <section className=' text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10  ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '> BASEMENT </h1>
+                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        When you tackle a basement renovation on your own, issues can arise, such as choosing the wrong flooring or unsuitable paint. That’s where All A Handyman & Construction LLC comes in. With our expertise, we ensure your basement is transformed efficiently and affordably.
+
+                        We take pride in delivering the best results at competitive prices, handling all the heavy work so you can enjoy your new space for years to come. Our turnkey basement finishing projects offer peace of mind and lasting quality.
+                        
+
+
+                        <p className='mt-6'>
+                        Your basement holds endless potential, whether it's a:
+
+                        Custom Home Office :
+
+                        1.⁠ ⁠Elegant Wet Bar and Lounge
+
+                        2.⁠ ⁠Home Theater or Game Room
+
+                        3.⁠ ⁠Personal Fitness Studio
+
+                        4.⁠ ⁠Full or Half Bathroom</p>
+
+                        </p>
+
+
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                    <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Basement1} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Basement10} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Basement6} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="md:flex container px-5 gap-3 pb-10">
+                        
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-start lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/basement'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+
+               </div>
+            </section>
      
         {/* backyard section */}
         <section className='projects text-black    '>
@@ -202,10 +278,9 @@ const services = () => {
                <div className="container relative md:flex  px-10 py-10 pt-28 ">
                     <div className="text-center">
                         <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
-                        '>LANDSCAPING</h1>
+                        '>BACKYARD AND PATIO</h1>
                         <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
-                        At All A Handyman and Contractor, we specialize in turning ordinary backyards into stunning outdoor retreats. Whether you're looking to add a new patio, deck, landscaping features, or a custom entertainment area, our team is ready to bring your backyard vision to life. With a focus on quality craftsmanship, attention to detail, and practical solutions, we ensure a backyard remodel that suits your lifestyle and budget. Enjoy fair pricing, flexible financing options, and a seamless remodeling experience with All-Handyman.
-                        </p>
+                        At All A Handyman and Contractor, we specialize in turning ordinary backyards into stunning outdoor retreats. Whether you're looking to add a new patio, deck, or custom entertainment area, our team is ready to bring your backyard vision to life. With a focus on quality craftsmanship, attention to detail, and practical solutions, we ensure a backyard remodel that suits your lifestyle and budget. Enjoy fair pricing, flexible financing options, and a seamless remodeling experience with All-Handyman.</p>
                         <p className='text-center mb-5 md:hidden'>______________________________</p>
                         
                     </div>
@@ -280,6 +355,244 @@ const services = () => {
 
                </div>
             </section>
+
+
+
+            {/* painting section */}
+            <section className='projects text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10 pt-28 ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>PAINTING</h1>
+                        <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        At All A Handyman and Contractor, we provide expert residential and commercial painting to refresh and elevate your space. Whether it's a single room or a full property, our skilled painters ensure smooth, lasting finishes with premium materials and attention to detail.
+                        We offer color consultations, thorough prep work, and efficient service with minimal disruption. With transparent pricing and flexible scheduling, we make your painting project easy and hassle-free. Transform your space today with a fresh coat of quality!
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Painting1} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Painting2} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Painting3} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='relative mt-5  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-end lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/painting'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+                </div>
+
+               </div>
+      </section>
+
+
+        {/* Drywall section */}
+      <section className=' text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10  ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>DRY-WALL INSTALLATION</h1>
+                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        At All A Handyman and Contractor, we deliver seamless drywall installation for both residential and commercial spaces. Whether you're renovating a single room or building out an entire property, our team ensures precision and quality in every installation.
+                        We handle everything from framing and hanging to taping and finishing, leaving you with smooth, durable walls that are ready for painting or finishing. With our attention to detail and commitment to meeting deadlines, you can expect a flawless result every time. Trust All A Handyman for reliable service, fair pricing, and a clean, professional finish on your next drywall project.
+
+
+
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                    <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Drywall1} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Drywall2} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Drywall3} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="md:flex container px-5 gap-3 pb-10">
+                        
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-start lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/drywall'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+
+               </div>
+            </section>
+
+
+         {/* plumbing Section */}
+    <section className='projects text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10 pt-28 ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>PLUMBING</h1>
+                        <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        At All A Handyman and Contractor, our expert plumbing services ensure your home or business runs smoothly. Whether it's installing new fixtures, repairing leaks, or addressing complex drainage issues, our skilled plumbers handle it all with precision and care.
+
+                        We offer quick, reliable solutions for everything from small repairs to full system installations, ensuring efficient water flow and long-lasting results. With transparent pricing and dependable service, you can count on us for all your plumbing needs, big or small. Keep your plumbing in top shape with All A Handyman.
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Plumbing1} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Plumbing2} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Plumbing3} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='relative mt-5  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-end lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/plumbing'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+                </div>
+
+               </div>
+      </section>
+
+
+    {/* Electircal */}
+    <section className=' text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10  ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>ELECTRICAL </h1>
+                        <p className='lg:px-10 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        At All A Handyman and Contractor, we provide reliable and safe electrical services for your home or business. From new installations and rewiring to troubleshooting and repairs, our licensed electricians ensure your electrical systems function efficiently and safely.
+
+                        Whether you’re upgrading lighting, adding outlets, or addressing electrical issues, we deliver expert solutions tailored to your needs. With a focus on safety, compliance, and quality, we guarantee clean, precise work every time. Choose All A Handyman for trustworthy service, transparent pricing, and peace of mind on all your electrical projects.
+
+
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                    <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Electrical2} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Electrical3} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Electrical4} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="md:flex container px-5 gap-3 pb-10">
+                        
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-start lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/electrical'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+
+               </div>
+            </section>
+
+
+
+    {/* Floring section */}
+     {/* plumbing Section */}
+     <section className='projects text-black    '>
+               <div className='lg:mx-[20%]'>
+               <div className="container relative md:flex  px-10 py-10 pt-28 ">
+                    <div className="text-center">
+                        <h1 className='text-4xl  font-bold md:mx-16 mb-5 text-center 
+                        '>FLOORING</h1>
+                        <p className='lg:px-12 lg:text-start py-5' style={{fontFamily: 'Poppins, sans-serif'}}>
+                        At All A Handyman and Contractor, we specialize in transforming your space with high-quality flooring options. Whether you’re looking for the warmth of wood, the durability of vinyl, the elegance of laminate, or the comfort of carpet, we offer a wide range of materials to suit your style and needs.
+
+                        Our skilled team ensures precise installation for a flawless finish, providing long-lasting beauty and functionality. From residential homes to commercial spaces, we handle projects of all sizes with attention to detail and expert craftsmanship. Trust All A Handyman for competitive pricing, reliable service, and the perfect flooring solution for your space.
+                        </p>
+                        <p className='text-center mb-5 md:hidden'>______________________________</p>
+                        
+                    </div>
+                   
+                </div>
+                
+                <div className='relative  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            <img src={Flooring1} alt="Interior" style={{ height :'406px', width: '100%', borderRadius:'10px'}} />
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1 hidden md:flex md:flex-col">
+                            <img src={Flooring2} alt="Interior" style={{ height: '200px', width:'100%', borderRadius:'10px'}} />
+                            <img src={Flooring3} alt="Interior" style={{ height : '200px', width : '100%', borderRadius:'10px'}} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='relative mt-5  '>
+                    <div className="md:flex container px-5 gap-3 pb-10">
+                        <div className="md:w-[70%] img-shadow2 flex-col">
+                            
+                        </div>
+                        <div className="md:w-[30%] img-shadow2 md:space-y-1  md:flex md:flex-col items-end lg:pr-[3%] md:pr[5%]">
+                            <Link to={'/flooring'} className=' hover:text-black hover:bg-cyan-500 px-6 py-4 bg-cyan-600 rounded-xl text-white'>SEE GALLERY</Link>
+                        </div>
+                    </div>
+                </div>
+
+               </div>
+      </section>
+
+
+   
+
+
+
+
+
+
+
+
+
+
     </>
 
     
