@@ -2,7 +2,7 @@ import './LivingRoom.css';
 import { Link } from 'react-router-dom';
 import Flooring1 from '../assets/images/flooring1.jpg'
 import Flooring2 from '../assets/images/flooring2.jpg'
-import Flooring3 from '../assets/images/flooring3.jpg'
+import Flooring3 from '../assets/images/flooring11.jpeg'
 import Flooring4 from '../assets/images/flooring4.jpg'
 import Flooring5 from '../assets/images/flooring5.jpg'
 import Flooring6 from '../assets/images/flooring6.jpg'
@@ -34,13 +34,13 @@ const Bathroom = () => {
                 <h1 className='text-center font-bold text-2xl'>FLOORING GALLERY</h1>
                 <div className="hidden md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Flooring1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
+                        <img src={Flooring1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'360px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
                         <img src={Flooring2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',}}/> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Flooring3} alt="bathroom" width={'100%'}  style={{borderRadius:'7px',height:'89%'}} /> 
+                    <img src={Flooring3} alt="bathroom" width={'100%'}  style={{borderRadius:'7px',height:'360px'}} /> 
                     </div>
                 </div>
                 <div className=" md:flex">

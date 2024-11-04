@@ -1,12 +1,12 @@
 import './Bathroom.css';
 import {Link} from 'react-router-dom';
 
-import Toilet1 from  '../assets/images/toilet1.jpg';
+import Toilet1 from  '../assets/images/bathroom11.jpeg';
 import Toilet2 from  '../assets/images/toilet2.jpg';
 import Toilet3 from  '../assets/images/toilet3.jpg';
 import Toilet4 from  '../assets/images/bathroom2.jpeg';
 import Toilet5 from  '../assets/images/toilet5.jpg';
-import Toilet6 from  '../assets/images/toilet11.jpeg';
+import Toilet6 from  '../assets/images/bathroom12.jpeg';
 import Toilet7 from  '../assets/images/toilet10.jpeg';
 import Toilet8 from  '../assets/images/toilet8.jpg';
 import Toilet9 from  '../assets/images/toilet9.jpeg';
@@ -33,7 +33,7 @@ const Bathroom = () => {
                 
                 <div className="hidden md:flex ">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Toilet1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:''}} /> 
+                        <img src={Toilet1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'360px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
                         <img src={Toilet2} alt="bathroom" width={'100%'} style={{borderRadius:'7px'}}/> 

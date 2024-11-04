@@ -7,7 +7,7 @@ import Backyard4 from  '../assets/images/backyard4.jpg';
 import Backyard5 from  '../assets/images/backyard5.jpg';
 import Backyard6 from  '../assets/images/backyard6.jpg';
 import Backyard7 from  '../assets/images/backyard7.jpg';
-import Backyard8 from  '../assets/images/backyard8.jpg';
+import Backyard8 from  '../assets/images/backyard11.jpeg';
 
 
 

@@ -5,7 +5,7 @@ import Living2 from  '../assets/images/livingroom2.jpg';
 import Living3 from  '../assets/images/livingroom3.jpg';
 import Living4 from  '../assets/images/livingroom4.jpg';
 import Living5 from  '../assets/images/livingroom5.jpg';
-import Living6 from  '../assets/images/livingroom6.jpg';
+import Living6 from  '../assets/images/sittingroom11.jpeg';
 import Living7 from  '../assets/images/livingroom7.jpeg';
 import Living8 from  '../assets/images/livingroom8.jpeg';
 

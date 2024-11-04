@@ -4,7 +4,7 @@ import Kitchen1 from  '../assets/images/kitchen1.jpg';
 import Kitchen2 from  '../assets/images/kitchen2.jpg';
 import Kitchen3 from  '../assets/images/kitchen3.jpg';
 import Kitchen4 from  '../assets/images/kitchen4.jpg';
-import Kitchen5 from  '../assets/images/kitchen5.jpg';
+import Kitchen5 from  '../assets/images/kitchen11.jpeg';
 import Kitchen6 from  '../assets/images/kitchen6.jpg';
 import Kitchen7 from  '../assets/images/kitchen6.jpeg';
 import Kitchen8 from  '../assets/images/kitchen8.jpeg';
