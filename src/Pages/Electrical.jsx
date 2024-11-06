@@ -33,7 +33,7 @@ const Bathroom = () => {
                         <img src={Electrical2} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Electrical3} alt="bathroom" width={'100%'} style={{borderRadius:'7px',}}/> 
+                        <img src={Electrical8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'350px'}}/> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
                     <img src={Electrical4} alt="bathroom" width={'100%'}  style={{borderRadius:'7px',height:'89%'}} /> 
@@ -44,18 +44,18 @@ const Bathroom = () => {
                         <img src={Electrical5} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     
-                    <div className="md:w-1/3 p-3 flex-col">
-                    <img src={Electrical6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
+                    {/* <div className="md:w-1/3 p-3 flex-col">
+                    <img src="{Electrical6}" alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
                     <img src={Electrical7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
-                    <div className="md:w-1/3 p-3 flex-col">
+                    </div> */}
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Electrical8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
-                    <div className="md:w-1/3 p-3 flex-col">
+                    </div> */}
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Electrical2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
+                    </div> */}
                 </div>
                 <div className='pr-[50%] mb-10 lg:pr-[90%] md:pr-[70%]'>
                        <Link to={'/contact'}

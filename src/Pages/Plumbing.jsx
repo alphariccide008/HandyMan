@@ -1,13 +1,5 @@
 import './LivingRoom.css';
 import { Link } from 'react-router-dom';
-import Roofing1 from  '../assets/images/roffing1.jpg';
-import Roofing2 from  '../assets/images/roofing2.jpg';
-import Roofing3 from  '../assets/images/roofing3.jpg';
-import Roofing4 from  '../assets/images/roofing4.jpg';
-import Roofing5 from  '../assets/images/roofing5.jpg';
-import Roofing6 from  '../assets/images/roofing6.jpg';
-import Roofing7 from  '../assets/images/roofing7.jpg';
-import Roofing8 from  '../assets/images/roofing8.jpg';
 import Plumbing1 from '../assets/images/plum1.jpg'
 import Plumbing2 from '../assets/images/plum2.jpg'
 import Plumbing3 from '../assets/images/plum3.jpg'
@@ -39,7 +31,7 @@ const Bathroom = () => {
                 <h1 className='text-center font-bold text-2xl'>PLUMBING GALLERY</h1>
                 <div className="hidden md:flex">
                     <div className="md:w-1/3 p-3 flex-col">
-                        <img src={Plumbing1} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
+                        <img src={Plumbing5} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'90%'}} /> 
                     </div>
                     <div className="md:w-1/3 p-3 flex-col">
                         <img src={Plumbing2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'90%'}}/> 
@@ -49,22 +41,22 @@ const Bathroom = () => {
                     </div>
                 </div>
                 <div className=" md:flex">
-                    <div className="md:w-1/3 p-3 flex-col">
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                         <img src={Plumbing3} alt="bathroom" className='' width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
+                    </div> */}
                     
-                    <div className="md:w-1/3 p-3 flex-col">
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Plumbing4} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
-                    <div className="md:w-1/3 p-3 flex-col">
+                    </div> */}
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Plumbing5} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
+                    </div> */}
                     <div className="md:w-1/3 p-3 flex-col">
                     <img src={Plumbing7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
-                    <div className="md:w-1/3 p-3 flex-col">
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Plumbing2} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
+                    </div> */}
                 </div>
                 <div className='pr-[50%] mb-10 lg:pr-[90%] md:pr-[70%]'>
                        <Link to={'/contact'}

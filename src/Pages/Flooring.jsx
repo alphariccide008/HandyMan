@@ -54,12 +54,12 @@ const Bathroom = () => {
                     <div className="md:w-1/3 p-3 flex-col">
                     <img src={Flooring6} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
                     </div>
-                    <div className="md:w-1/3 p-3 flex-col">
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Flooring7} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
-                    <div className="md:w-1/3 p-3 flex-col">
+                    </div> */}
+                    {/* <div className="md:w-1/3 p-3 flex-col">
                     <img src={Flooring8} alt="bathroom" width={'100%'} style={{borderRadius:'7px',height:'320px'}} /> 
-                    </div>
+                    </div> */}
                 </div>
                 <div className='pr-[50%] mb-10 lg:pr-[90%] md:pr-[70%]'>
                        <Link to={'/contact'}
