@@ -23,13 +23,13 @@ import Backyard3 from  '../assets/images/backyard3.jpg';
 import Basement1 from  '../assets/images/basement1.jpg';
 import Basement10 from  '../assets/images/basement10.jpg';
 import Basement6 from  '../assets/images/basement6.jpg';
-import Drywall1 from '../assets/images/drywall1.jpg'
+import Drywall1 from '../assets/images/drywall7.jpg'
 import Drywall2 from '../assets/images/drywall2.jpg'
-import Drywall3 from '../assets/images/drywall3.jpg'
+import Drywall3 from '../assets/images/drywall9.jpg'
 import Electrical2 from '../assets/images/electricals2.jpg'
 import Electrical3 from '../assets/images/electricals3.jpg'
 import Electrical4 from '../assets/images/electricals4.jpg'
-import Plumbing1 from '../assets/images/plum4.jpg'
+import Plumbing1 from '../assets/images/plum7.jpg'
 import Plumbing2 from '../assets/images/plum2.jpg'
 import Plumbing3 from '../assets/images/plum3.jpg'
 import Painting1 from '../assets/images/painting1.jpg'
